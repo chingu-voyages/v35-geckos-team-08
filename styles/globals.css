@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Notable&display=swap');
+
+:root {
+	--title-font: 'Notable', sans-serif;
+	--text-font: 'Enriqueta', serif;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+}
+
+h1,
+h2 {
+	font-family: var(--title-font);
+}
+
+p {
+	font-family: var(--text-font);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff0303;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
