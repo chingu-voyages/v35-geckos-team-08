@@ -3,22 +3,40 @@
 :root {
 	--title-font: 'Notable', sans-serif;
 	--text-font: 'Enriqueta', serif;
+	--accent-color: #ff0303;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0;
 	width: 100vw;
+	font-size: 62.5%;
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	font-family: var(--title-font);
+	text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 p {
 	font-family: var(--text-font);
+	font-size: 1rem;
+	line-height: 2rem;
+	margin: 0;
+	margin-bottom: 1rem;
 }
 
 a {
@@ -27,9 +45,11 @@ a {
 }
 
 a:hover {
-	color: #ff0303;
+	color: var(--accent-color);
 }
 
 * {
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
