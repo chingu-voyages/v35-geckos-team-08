@@ -2,16 +2,13 @@ import React, {useState} from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../components/hero.module.css';
+import Menu from './menu';
 
 export default function Hero(){
   const [openMenu, setOpenMenu] = useState(false);
 
   const OpenMenu = () => {
     setOpenMenu(true)
-  };
-
-  const CloseMenu = () => {
-    setOpenMenu(false)
   };
 
   return (
@@ -49,34 +46,7 @@ export default function Hero(){
           <Image className={styles.arrow} width={45} height={65} src="/assets/arrows.png" alt="arrow"/>
         </div>
 
-        {openMenu ? (
-          <div>
-          <div className={styles.menu}>
-          <div className={styles.close_btn} onClick={CloseMenu}>&times;</div>
-          <ul>
-            <li>HOME</li>
-            <li>EPISODES</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-          </ul>
-          </div>
-          <div className={styles.overlay}>
-          </div>
-          </div>
-        ) : (
-          <div>
-          <div className={styles.menu} style={{left: '-400px'}}>
-          <div className={styles.close_btn}>&times;</div>
-          <ul>
-            <li>HOME</li>
-            <li>EPISODES</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-          </ul>
-          </div>
-          </div>
-        )}
-        
+        <Menu openMenu={openMenu} setOpenMenu={setOpenMenu}/>
     </div>
   );
 }
