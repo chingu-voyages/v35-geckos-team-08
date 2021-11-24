@@ -1,1 +1,28 @@
 /* all common styles go here */
+.font_white {
+	color: white;
+}
+
+.font_black {
+	color: black;
+}
+
+.font_accent {
+	color: var(--accent-color);
+}
+
+.bg_black {
+  position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+  overflow: hidden;
+}
+
+.bg_white {
+  position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+  overflow: hidden;
+}
