@@ -20,8 +20,6 @@ export default function About() {
 					<Image
 						priority
 						src="/assets/sample_profile_pic.jpeg"
-						height={160}
-						width={160}
 						layout="fill"
 						objectFit="cover"
 						alt="profile-dummy"
