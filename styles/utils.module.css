@@ -8,7 +8,7 @@
 }
 
 .font_accent {
-	color: #ff0303;
+	color: var(--accent-color);
 }
 
 .bg_black {

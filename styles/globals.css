@@ -6,6 +6,15 @@
 	--accent-color: #ff0303;
 }
 
+/* For media query
+- min-width -
+Mobile M: 375px
+Mobile L: 425px
+Tablet: 768px
+Laptop: 1024px
+Desktop and more: 1440px
+*/
+
 html,
 body {
 	width: 100vw;
@@ -24,7 +33,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 h3 {
@@ -33,8 +42,8 @@ h3 {
 
 p {
 	font-family: var(--text-font);
-	font-size: 1rem;
-	line-height: 2rem;
+	font-size: 1.2rem;
+	line-height: 2.2rem;
 	margin: 0;
 	margin-bottom: 1rem;
 }
