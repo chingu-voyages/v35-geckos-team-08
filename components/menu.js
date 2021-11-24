@@ -1,17 +1,13 @@
 import React from 'react';
 import styles from './menu.module.css';
-export default function Menu({openMenu, setOpenMenu}){
-
-  const CloseMenu = () => {
-    setOpenMenu(false)
-  };
+export default function Menu({openMenu, OpenMenu}){
 
   return(
     <div>
     {openMenu ? (
       <div>
       <div className={styles.menu}>
-      <div className={styles.close_btn} onClick={CloseMenu}>&times;</div>
+      <div className={styles.close_btn} onClick={OpenMenu}>&times;</div>
       <ul>
         <li>HOME</li>
         <li>EPISODES</li>

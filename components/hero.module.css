@@ -3,6 +3,7 @@
 @media screen and (max-width: 40rem) {
 
   .container{
+      position: relative;
       box-sizing: border-box;
       font-family: 'Notable', sans-serif;
       background-color: black;
@@ -26,7 +27,9 @@
   }
   
   .top{
-    margin-top: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     height: 230px;
     background-image: url('../public/assets/background-wave.png');
     background-size: cover;
@@ -51,15 +54,17 @@
   }
   
   .arrows{
-    position: relative;
-    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     animation: arrowmove 2s ease-in-out infinite;
   }
   
   @keyframes arrowmove {
-    0%{top: 0;}
-    50%{top: 3%;}
-    100%{top: 0;}
+    0%{bottom: 10%;}
+    50%{bottom: 5%;}
+    100%{bottom: 10%;}
   }
   
   }

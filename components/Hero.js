@@ -8,7 +8,7 @@ export default function Hero(){
   const [openMenu, setOpenMenu] = useState(false);
 
   const OpenMenu = () => {
-    setOpenMenu(true)
+    setOpenMenu((prev) => !prev)
   };
 
   return (
@@ -43,10 +43,10 @@ export default function Hero(){
         <p className={styles.intro}>Musician, Singer, Rapper. He just debuted as Music Artist to follow his dream. Now it’s not ‘dream’ anymore.</p>
 
         <div className={styles.arrows}>
-          <Image className={styles.arrow} width={45} height={65} src="/assets/arrows.png" alt="arrow"/>
+          <Image width={45} height={65} src="/assets/arrows.png" alt="arrow"/>
         </div>
 
-        <Menu openMenu={openMenu} setOpenMenu={setOpenMenu}/>
+        <Menu openMenu={openMenu} OpenMenu={OpenMenu}/>
     </div>
   );
 }
