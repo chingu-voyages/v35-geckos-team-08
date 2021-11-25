@@ -56,3 +56,23 @@
 .social_icons svg:hover {
 	color: var(--accent-color);
 }
+
+/*================ Tablet ==================*/
+@media screen and (min-width: 768px) {
+	.about_section {
+		padding: 0 10rem;
+	}
+
+	.social_icons {
+		gap: 4rem;
+	}
+
+	.social_icons svg {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}
+
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+}
