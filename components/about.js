@@ -3,7 +3,6 @@ import Link from 'next/link';
 import styles from './about.module.css';
 import utilsStyles from '../styles/utils.module.css';
 import { BsTwitter, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF } from 'react-icons/fa';
 import { GrFacebookOption } from 'react-icons/gr';
 
 export default function About() {
@@ -22,6 +21,7 @@ export default function About() {
 						src="/assets/sample_profile_pic.jpeg"
 						layout="fill"
 						objectFit="cover"
+						objectPosition="left top"
 						alt="profile-dummy"
 					/>
 				</div>

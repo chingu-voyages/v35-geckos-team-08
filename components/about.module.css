@@ -75,4 +75,41 @@
 
 /*================ Laptop ==================*/
 @media screen and (min-width: 1024px) {
+	.about_section_container {
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 1fr 0.5fr 3fr 1fr;
+		grid-template-areas:
+			'h2 h2'
+			'img h3'
+			'img description'
+			'. social';
+	}
+
+	.about_section_container h2 {
+		grid-area: h2;
+	}
+
+	.about_section_container h3 {
+		grid-area: h3;
+	}
+
+	.image_wrapper {
+		grid-area: img;
+	}
+
+	.description {
+		grid-area: description;
+		height: auto;
+		max-height: 100%;
+		align-self: center;
+	}
+
+	.social_icons {
+		grid-area: social;
+	}
+
+	.social_icons svg {
+		width: 3rem;
+		height: 3rem;
+	}
 }
