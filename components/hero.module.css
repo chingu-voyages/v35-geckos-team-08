@@ -1,23 +1,19 @@
-/*================mobile==================*/
-
-@media screen and (max-width: 40rem) {
-
   .container{
-      position: relative;
-      box-sizing: border-box;
-      font-family: 'Notable', sans-serif;
-      background-color: black;
-      width: 100%;
-      height: 100vh
-  }
-  
-  .header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Notable', sans-serif;
+    background-color: black;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.555);
+    height: 100vh
+  }
+
+  .header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.555);
   }
   
   .logo_wrap{
@@ -30,7 +26,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    height: 230px;
+    width: 100%;
+    height: 50%;
     background-image: url('../public/assets/background-wave.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,13 +64,11 @@
     100%{bottom: 10%;}
   }
   
-  }
-  
   
   
   /*================Desk top==================*/
   
-  @media screen and (min-width: 40rem){
+  @media screen and (min-width: 1024px){
   
     .container{
       box-sizing: border-box;
