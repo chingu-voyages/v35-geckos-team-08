@@ -1,38 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Link from 'next/link';
 import styles from './menu.module.css';
-export default function Menu({openMenu, OpenMenu}){
+
+export default function Menu(){
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsMenuOpen(prevState => !prevState);
+  }
+
+  const hamburgerMenu = () => {
+    return !isMenuOpen ? 
+      (<div className={styles.hamburger} onClick={handleMenuClick}>
+        <div className={styles.hamburger_line}></div>
+      </div>)
+      :  
+      (<div className={styles.hamburger} onClick={handleMenuClick}>
+        <div className={styles.cross_line}></div>
+      </div>)
+  }
 
   return(
-    <div>
-    {openMenu ? (
-      <div>
-      <div className={styles.menu}>
-      <div className={styles.close_btn} onClick={OpenMenu}>&times;</div>
+    <React.Fragment>
+    {hamburgerMenu()}
+    <div className={isMenuOpen ? styles.menu : styles.menu_hidden}>
       <ul>
-        <li>HOME</li>
-        <li>EPISODES</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
+        <Link href="/" ><li onClick={handleMenuClick}>HOME</li></Link>
+        <Link href="#episodes"><li onClick={handleMenuClick}>EPISODES</li></Link>
+        <Link href="#about"><li onClick={handleMenuClick}>ABOUT</li></Link>
+        <Link href="#contact"><li onClick={handleMenuClick}>CONTACT</li></Link>
       </ul>
       </div>
-      <div className={styles.overlay}>
-      </div>
-      </div>
-    ) : (
-      <div>
-      <div className={styles.menu} style={{left: '-400px'}}>
-      <div className={styles.close_btn}>&times;</div>
-      <ul>
-        <li>HOME</li>
-        <li>EPISODES</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
-      </ul>
-      </div>
-      </div>
-    )}
-
-    </div>
+    <div className={isMenuOpen ? styles.overlay : styles.overlay_hidden}></div>
+    </React.Fragment>
   )
 }
 

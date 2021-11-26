@@ -1,43 +1,105 @@
-/*================mobile==================*/
+.hamburger {
+  position: fixed;
+  z-index: 1000;
+  top: 3.5rem;
+  left: 2.5rem;
+	width: 3rem;
+  height: 2.2rem;
+  cursor: pointer;
+}
 
-@media screen and (max-width: 40rem) {
+.hamburger_line {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 3rem;
+  height: 0.2rem;
+  background-color: var(--menu-bg);
+}
 
-.menu{
+.hamburger_line::before {
+  content: '';
+  position: absolute;
+  top: 0.8rem;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: var(--menu-bg);
+}
+
+.hamburger_line::after {
+  content: '';
+  position: absolute;
+  top: 1.6rem;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: var(--menu-bg);
+}
+
+.cross_line {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: black;
+  transform: rotate(45deg);
+}
+
+.cross_line::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+.menu {
   position: fixed;
   top: 0;
   left: 0;
   width: 70%;
   height: 100vh;
-  background-color: rgb(233, 0, 0);
+  background-color: var(--menu-bg);
   transition: all 0.5s ease-in-out;
-  z-index: 99;
+  z-index: 100;
+  padding: 8rem 5rem;
 }
 
-.close_btn{
-  margin: 20px;
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+.menu_hidden {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  width: 70%;
+  height: 100vh;
+  background-color: var(--menu-bg);
+  z-index: 100;
+  padding: 8rem 5rem;
+  transition: all 0.5s ease-in-out;
 }
 
-.menu ul{
-  position: absolute;
+.menu ul, .menu_hidden ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
-.menu li{
-  font-size: 25px;
-  margin: 15px 0;
-  padding: 10px 0;
+.menu li, .menu_hidden li {
+  font-family: var(--title-font);
+  font-size: 2rem;
   text-decoration: none;
   border: none;
   list-style: none;
 }
 
-.menu li:hover{
+.menu li:hover, .menu_hidden li:hover {
   color: white;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
-.overlay{
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -49,14 +111,14 @@
   transition: all 0.5s ease-in-out;
 }
 
+.overlay_hidden {
+  display: hidden;
 }
 
-
-/*================Desk top==================*/
+/*================ Laptop ==================*/
   
-@media screen and (min-width: 40rem){
-
-  .menu{
+@media screen and (min-width: 1024px) {
+  .menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -66,19 +128,19 @@
     transition: all 0.5s ease-in-out;
     z-index: 99;
   }
-  
-  .close_btn{
+
+  .close_btn {
     color: black;
     margin: 20px;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
   }
-  
-  .menu ul{
+
+  .menu ul {
     position: absolute;
   }
-  
-  .menu li{
+
+  .menu li {
     font-size: 25px;
     margin: 15px 0;
     padding: 10px 0;
@@ -86,13 +148,13 @@
     border: none;
     list-style: none;
   }
-  
-  .menu li:hover{
+
+  .menu li:hover {
     color: white;
     border-bottom: 1px solid black;
   }
 
-  .overlay{
+  .overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -103,5 +165,4 @@
     z-index: 98;
     transition: all 0.5s ease-in-out;
   }
-
 }
