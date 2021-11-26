@@ -11,6 +11,10 @@ export default function Hero(){
     query: '(min-width: 1024px)'
   })
 
+  const isTablet = useMediaQuery({
+    query: '(min-width: 768px)'
+  })
+
   return (
 		<div className={utilsStyles.bg_black}>
         <Menu />
@@ -19,9 +23,11 @@ export default function Hero(){
         </div>
         <div className={styles.top}>
         {isDesktop ? <h1 className={`${utilsStyles.font_white} ${styles.title}`}>Protest <span className={utilsStyles.font_accent}>T</span>unes</h1> 
+        : isTablet ? <h1 className={`${utilsStyles.font_white} ${styles.title}`}>Protest <span className={utilsStyles.font_accent}>T</span>unes</h1>
         : <h1 className={`${utilsStyles.font_white} ${styles.title}`}>Protest<br/><span className={utilsStyles.font_accent}>T</span>unes</h1>}
         </div>
-        {isDesktop && <h2 className={styles.intro}>Musician, Singer, Rapper. He just debuted as Music Artist to follow his dream. Now it’s not ‘dream’ anymore.</h2>}
+        {isDesktop ? <h2 className={styles.intro}>Musician, Singer, Rapper. He just debuted as Music Artist to follow his dream. Now it’s not ‘dream’ anymore.</h2>
+        : <h2 className={styles.intro}>Musician, Singer, Rapper. He just debuted as Music Artist to follow his dream.<br/> Now it’s not ‘dream’ anymore.</h2>}
         <div className={styles.arrows}>
           <Image width={45} height={65} src="/assets/arrows.png" alt="arrow"/>
         </div>
