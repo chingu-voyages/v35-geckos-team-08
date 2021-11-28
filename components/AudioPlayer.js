@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import styles from "../styles/AudioPlayer.module.css";
+import styles from "../components/AudioPlayer.module.css";
 import { BsArrowLeftShort } from "react-icons/bs"
 import { BsArrowRightShort } from "react-icons/bs"
 import { FaPlay } from "react-icons/fa"
