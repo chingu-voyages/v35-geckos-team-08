@@ -1,1 +1,13 @@
-// store all episodes' thumbnail & audio data here in json 
+{
+    "episodes": [
+        {
+            "episodeId": "001",
+            "date": "2021.11.01",
+            "name": "Climate",
+            "description": "The first Protest Tunes show aired on 11/1/21 and was on climate justice, in light of the UN climate summit in Glasgow that week. I started working on this show as my demo for KBCS during the northwest heatwave this June.",
+            "tracklist": "https://docs.google.com/spreadsheets/d/1XQke_s5GmlbbQlJ79n5kUexAn-9YpNxEXPDlAhK4snQ/edit#gid=0",
+            "audio": "https://drive.google.com/file/d/126G84zucmxpBwTGqJAZ68PcI8LxAyCkc/view?ts=619fdf1d",
+            "image": "https://drive.google.com/drive/folders/1jGfpTHmtsCqfBEytkBoopecMkULn7x2Y"
+        }
+    ]
+}
