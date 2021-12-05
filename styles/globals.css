@@ -51,10 +51,20 @@ p {
 a {
 	color: inherit;
 	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
 }
 
 a:hover {
 	color: var(--accent-color);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 3rem 1rem;
 }
 
 * {
@@ -102,5 +112,9 @@ a:hover {
 		font-size: 2rem;
 		line-height: 3.8rem;
 		margin-bottom: 4rem;
+	}
+
+	footer {
+		padding: 5rem 1rem;
 	}
 }
