@@ -12,7 +12,7 @@
     border: none;
     display: flex;
     align-items: center;
-    font-family: monospace;
+    font-family: var(--title-font);
     font-size: 16px;
     cursor: pointer;
   }
@@ -41,7 +41,7 @@
   
   .currentTime,
   .duration {
-    font-family: monospace;
+    font-family: var(--title-font);
     font-size: 16px;
   }
   
@@ -50,11 +50,11 @@
   }
   
   .progressBar {
-    --bar-bg: #ffe3d4;
+    --bar-bg: darkgrey;
     --seek-before-width: 0;
-    --seek-before-color: #ffc2a1;
-    --knobby: #3452a5;
-    --selectedKnobby: #26c9c3;
+    --seek-before-color: grey;
+    --knobby: black;
+    --selectedKnobby: #ff0303;
   
     appearance: none;
     background: var(--bar-bg);;

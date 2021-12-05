@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import styles from "../components/AudioPlayer.module.css";
+import utilsStyles from '../styles/utils.module.css';
 import { BsArrowLeftShort } from "react-icons/bs"
 import { BsArrowRightShort } from "react-icons/bs"
 import { FaPlay } from "react-icons/fa"
 import { FaPause } from "react-icons/fa"
+//
 
 const AudioPlayer = () => {
   // state
@@ -69,6 +71,10 @@ const AudioPlayer = () => {
   }
 
   return (
+    <section
+    className={utilsStyles.bg_white}
+    id="episodes"
+>
     <div className={styles.audioPlayer}>
       <audio ref={audioPlayer} src="https://cdn.simplecast.com/audio/cae8b0eb-d9a9-480d-a652-0defcbe047f4/episodes/af52a99b-88c0-4638-b120-d46e142d06d3/audio/500344fb-2e2b-48af-be86-af6ac341a6da/default_tc.mp3" preload="metadata"></audio>
       <button className={styles.forwardBackward} onClick={backThirty}><BsArrowLeftShort /> 30</button>
@@ -76,6 +82,7 @@ const AudioPlayer = () => {
         {isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
       </button>
       <button className={styles.forwardBackward} onClick={forwardThirty}>30 <BsArrowRightShort /></button>
+      <div />
 
       {/* current time */}
       <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
@@ -88,6 +95,7 @@ const AudioPlayer = () => {
       {/* duration */}
       <div className={styles.duration}>{(duration && !isNaN(duration)) && calculateTime(duration)}</div>
     </div>
+    </section>
   )
 }
 
