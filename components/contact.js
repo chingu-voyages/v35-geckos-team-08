@@ -20,7 +20,7 @@ export default function Contact() {
 
 	return (
 		<React.Fragment>
-			<section className={utilsStyles.bg_white}>
+			<section className={utilsStyles.bg_white} id="contact">
 				<div className={styles.contact_section_container}>
 					<h2>
 						<span className={utilsStyles.font_accent}>C</span>ONTACT
