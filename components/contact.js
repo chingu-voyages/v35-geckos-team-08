@@ -53,7 +53,7 @@ export default function Contact() {
 	const handleSubmitBtn = async (e) => {
 		e.preventDefault();
 
-		setPostSendMessage(<p>Loading...</p>);
+		setPostSendMessage(<p>Sending...</p>);
 
 		const isAllFilled = await Object.values(values).every(
 			(ele) => validator.isEmpty(ele) === false
@@ -75,14 +75,12 @@ export default function Contact() {
 					Please enter a valid email.
 				</p>
 			);
-		} else {
-			setPostSendMessage(null);
 		}
 
 		try {
 			isAllFilled &&
 				isValidEmail &&
-				emailjs
+				(await emailjs
 					.send(
 						'contact_service',
 						'contact_form',
@@ -95,7 +93,7 @@ export default function Contact() {
 					.catch((err) => {
 						handlePostSend('NG');
 						console.error('FAILED...', err);
-					});
+					}));
 		} catch (err) {
 			handlePostSend('NG');
 			console.error('FAILED...', err);
