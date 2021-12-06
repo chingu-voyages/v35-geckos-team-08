@@ -4,6 +4,7 @@ import utilsStyles from '../styles/utils.module.css';
 import emailjs from 'emailjs-com';
 import randomId from 'random-id';
 import validator from 'validator';
+import { BiInfoCircle, BiCheckCircle } from 'react-icons/bi';
 
 export default function Contact() {
 	const [values, setValues] = useState({
@@ -21,7 +22,12 @@ export default function Contact() {
 
 	const handlePostSend = (status) => {
 		if (status === 'OK') {
-			setPostSendMessage('Your message has been sent!');
+			setPostSendMessage(
+				<p className={styles.success_message}>
+					<BiCheckCircle />
+					Your message has been sent!
+				</p>
+			);
 			setValues({
 				contactNumber: randomId(4, 'aA0'),
 				name: '',
@@ -29,7 +35,12 @@ export default function Contact() {
 				message: '',
 			});
 		} else {
-			setPostSendMessage('Failed to send...Please try again.');
+			setPostSendMessage(
+				<p className={styles.error_message}>
+					<BiInfoCircle />
+					Failed to send...Please try again.
+				</p>
+			);
 			setValues({
 				contactNumber: randomId(4, 'aA0'),
 				name: '',
@@ -42,6 +53,8 @@ export default function Contact() {
 	const handleSubmitBtn = async (e) => {
 		e.preventDefault();
 
+		setPostSendMessage(<p>Loading...</p>);
+
 		const isAllFilled = await Object.values(values).every(
 			(ele) => validator.isEmpty(ele) === false
 		);
@@ -49,9 +62,19 @@ export default function Contact() {
 		const isValidEmail = await validator.isEmail(values.email);
 
 		if (!isAllFilled) {
-			setPostSendMessage('Please fill out all items.');
+			setPostSendMessage(
+				<p className={styles.error_message}>
+					<BiInfoCircle />
+					Please fill out all items.
+				</p>
+			);
 		} else if (!isValidEmail) {
-			setPostSendMessage('Please enter a valid email.');
+			setPostSendMessage(
+				<p className={styles.error_message}>
+					<BiInfoCircle />
+					Please enter a valid email.
+				</p>
+			);
 		} else {
 			setPostSendMessage(null);
 		}
@@ -77,6 +100,8 @@ export default function Contact() {
 			handlePostSend('NG');
 			console.error('FAILED...', err);
 		}
+
+		setTimeout(() => setPostSendMessage(null), 3000);
 	};
 
 	return (
@@ -112,9 +137,15 @@ export default function Contact() {
 						onChange={handleOnChange}
 						required
 					/>
-					<button className={utilsStyles.font_white} onClick={handleSubmitBtn}>
-						Send Message
-					</button>
+					<div className={styles.button_wrapper}>
+						{postSendMessage}
+						<button
+							className={utilsStyles.font_white}
+							onClick={handleSubmitBtn}
+						>
+							Send Message
+						</button>
+					</div>
 				</form>
 			</div>
 		</section>
