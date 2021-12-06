@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import styles from './contact.module.css';
 import utilsStyles from '../styles/utils.module.css';
+import emailjs from 'emailjs-com';
+import randomId from 'random-id';
 
 export default function Contact() {
 	const [values, setValues] = useState({
+		contactNumber: randomId(4, 'aA0'),
 		name: '',
 		email: '',
 		message: '',
@@ -16,6 +19,16 @@ export default function Contact() {
 
 	const handleSubmitBtn = (e) => {
 		e.preventDefault();
+
+		emailjs
+			.send(
+				'contact_service',
+				'contact_form',
+				values,
+				process.env.NEXT_PUBLIC_EMAIL_JS_USER_ID // TODO: remove NEXT_PUBLIC_ prefix at build
+			)
+			.then((res) => console.log('SUCCESS!', res.status, res.text))
+			.catch((err) => console.error('FAILED...', err));
 	};
 
 	return (
