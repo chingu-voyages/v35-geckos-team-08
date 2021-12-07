@@ -6,7 +6,7 @@ import Menu from './menu';
 
 export default function Hero(){
   return (
-		<div className={utilsStyles.bg_black}>
+		<div className={utilsStyles.bg_black} id="home">
         <Menu />
         <div className={styles.logo_wrap}>
           <Image className={styles.logo} width={92} height={120} src="/assets/SeattleDJ_fist.png" alt="logo"/>
