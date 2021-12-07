@@ -7,12 +7,13 @@ import validator from 'validator';
 import { BiInfoCircle, BiCheckCircle } from 'react-icons/bi';
 
 export default function Contact() {
-	const [values, setValues] = useState({
+	const initialValues = {
 		contactNumber: randomId(4, 'aA0'),
 		name: '',
 		email: '',
 		message: '',
-	});
+	};
+	const [values, setValues] = useState(initialValues);
 	const [postSendMessage, setPostSendMessage] = useState(null);
 
 	const handleOnChange = (e) => {
@@ -28,12 +29,7 @@ export default function Contact() {
 					Your message has been sent!
 				</p>
 			);
-			setValues({
-				contactNumber: randomId(4, 'aA0'),
-				name: '',
-				email: '',
-				message: '',
-			});
+			setValues(initialValues);
 		} else {
 			setPostSendMessage(
 				<p className={styles.error_message}>
@@ -41,12 +37,7 @@ export default function Contact() {
 					Failed to send...Please try again.
 				</p>
 			);
-			setValues({
-				contactNumber: randomId(4, 'aA0'),
-				name: '',
-				email: '',
-				message: '',
-			});
+			setValues(initialValues);
 		}
 	};
 
