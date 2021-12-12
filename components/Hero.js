@@ -16,7 +16,7 @@ export default function Hero(){
   })
 
   return (
-		<div className={utilsStyles.bg_black}>
+		<div className={utilsStyles.bg_black} id="home">
         <Menu />
         <div className={styles.container}>
 				<div className={styles.top}>

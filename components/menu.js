@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
+import { Link as Scroll } from 'react-scroll';
 import styles from './menu.module.css';
 
 export default function Menu(){
@@ -25,10 +25,10 @@ export default function Menu(){
     {hamburgerMenu()}
     <div className={isMenuOpen ? styles.menu : styles.menu_hidden}>
       <ul>
-        <Link href="/" ><li onClick={handleMenuClick}>HOME</li></Link>
-        <Link href="#episodes"><li onClick={handleMenuClick}>EPISODES</li></Link>
-        <Link href="#about"><li onClick={handleMenuClick}>ABOUT</li></Link>
-        <Link href="#contact"><li onClick={handleMenuClick}>CONTACT</li></Link>
+        <Scroll to="home" ><li onClick={handleMenuClick}>HOME</li></Scroll>
+        <Scroll to="episodes"><li onClick={handleMenuClick}>EPISODES</li></Scroll>
+        <Scroll to="about"><li onClick={handleMenuClick}>ABOUT</li></Scroll>
+        <Scroll to="contact"><li onClick={handleMenuClick}>CONTACT</li></Scroll>
       </ul>
       </div>
     <div className={isMenuOpen ? styles.overlay : styles.overlay_hidden}></div>
