@@ -16,13 +16,10 @@
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
-  overflow: hidden;
 }
 
 .bg_white {
-  position: relative;
 	width: 100vw;
 	height: 100vh;
 	background-color: white;
-  overflow: hidden;
 }

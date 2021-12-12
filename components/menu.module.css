@@ -14,7 +14,7 @@
   left: 0; 
   width: 3rem;
   height: 0.2rem;
-  background-color: var(--menu-bg);
+  background-color: var(--accent-color);
 }
 
 .hamburger_line::before {
@@ -23,7 +23,7 @@
   top: 0.8rem;
   width: 3rem;
   height: 0.2rem;
-  background-color: var(--menu-bg);
+  background-color: var(--accent-color);
 }
 
 .hamburger_line::after {
@@ -32,7 +32,7 @@
   top: 1.6rem;
   width: 3rem;
   height: 0.2rem;
-  background-color: var(--menu-bg);
+  background-color: var(--accent-color);
 }
 
 .cross_line {
@@ -62,7 +62,7 @@
   left: 0;
   width: 70%;
   height: 100vh;
-  background-color: var(--menu-bg);
+  background-color: var(--accent-color);
   transition: all 0.5s ease-in-out;
   z-index: 100;
   padding: 8rem 5rem;
@@ -74,7 +74,7 @@
   left: -100vw;
   width: 70%;
   height: 100vh;
-  background-color: var(--menu-bg);
+  background-color: var(--accent-color);
   z-index: 100;
   padding: 8rem 5rem;
   transition: all 0.5s ease-in-out;
@@ -126,7 +126,6 @@
     height: 100vh;
     background-color: rgb(233, 0, 0);
     transition: all 0.5s ease-in-out;
-    z-index: 99;
   }
 
   .close_btn {
