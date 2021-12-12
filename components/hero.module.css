@@ -1,121 +1,108 @@
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: center/150% no-repeat url('../public/assets/background-wave.png');
+}
+
 .logo_wrap {
-  position: relative;
-  top: 20%;
-  text-align: center;
+	position: absolute;
+	top: 20%;
 }
 
 .top {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: center/cover no-repeat url('../public/assets/background-wave.png');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
 }
 
 .title {
-  width: 80%;
-  overflow-wrap: normal;
+	display: inline-block;
+	width: auto;
+	overflow-wrap: normal;
 }
 
 .intro {
-  display: none;
-  font-size: 10px;
+	display: none;
 }
 
 .arrows {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 15%;
-  text-align: center;
-  animation: arrowmove 2s ease-in-out infinite;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 15%;
+	text-align: center;
+	animation: arrowmove 2s ease-in-out infinite;
 }
 
 @keyframes arrowmove {
-  0%{bottom: 5%;}
-  50%{bottom: 10%;}
-  100%{bottom: 5%;}
+	0% {
+		bottom: 5%;
+	}
+	50% {
+		bottom: 10%;
+	}
+	100% {
+		bottom: 5%;
+	}
 }
-  
 
-/*================ Laptop ==================*/  
-@media screen and (min-width: 1024px){
-  .container {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    font-family: 'Notable', sans-serif;
-  }
+/*================ Tablet ==================*/
 
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.555);
-    padding: 30px;
-  }
+@media screen and (min-width: 768px) {
+	.container {
+		background: center/100% no-repeat
+			url('../public/assets/background-wave_desktop.png');
+	}
 
-  .hamburger_menu {
-    width: 47px;
-    height: 36px;
-  }
+	.title {
+		font-size: 5rem;
+		margin-bottom: 3rem;
+	}
 
-  .logo_wrap {
-    position: relative;
-    top: 33%;
-    width: 30%;
-    margin-left: 10%;
-    z-index: 98;
-  }
+	.intro {
+		width: auto;
+		display: inline-block;
+		color: white;
+		font-size: 1.8rem;
+		line-height: 3.5rem;
+	}
+}
 
-  .top {
-    position: absolute;
-    top: 10%;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    background-image: url('../public/assets/background-wave_desktop.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 2;
-  }
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+	.title {
+		font-size: 7rem;
+	}
 
-  .title {
-    position: relative;
-    top: 15%;
-    margin-left: 5%;
-    color: white;
-    font-size: 100px;
-    text-align: center;
-  }
-  
-  .title .red {
-    color: red;
-  }
+	.top {
+		width: 80%;
+		margin: auto;
+	}
 
-  .intro {
-    position: absolute;
-    top: 50%;
-    width: 50%;
-    color: white;
-    font-size: 25px;
-    font-family: 'Enriqueta', serif;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: 25%;
-  }
+	.intro {
+		color: white;
+		font-size: 2rem;
+	}
 
-  .arrows {
-    position: fixed;
-    top: 0;
-    visibility: hidden;
-    opacity: 0;
-  }
+	.arrows {
+		position: fixed;
+		top: 0;
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+/*================ Desktop and more ==================*/
+@media screen and (min-width: 1440px) {
+	.container {
+		background: top 0 left 0/100% no-repeat
+			url('../public/assets/background-wave_desktop.png');
+	}
 }
