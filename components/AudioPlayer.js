@@ -74,12 +74,12 @@ const AudioPlayer = () => {
   return (
     <section
       className={`${utilsStyles.bg_white} ${styles.audio_player_section}`}
-      id="episodes"
-    >
+      id="episodes">
       <div className={styles.audio_player_section_container}>
         <h2 className={utilsStyles.font_black}>
           <span className={utilsStyles.font_accent}>E</span>pisodes
         </h2>
+        <div className={styles.flex_wrapper}>
         <div className={styles.image_wrapper}>
           <Image
             priority
@@ -125,6 +125,7 @@ const AudioPlayer = () => {
           <div className={styles.duration}>{(duration && !isNaN(duration)) && calculateTime(duration)}</div>
 
           </div>
+        </div>
         </div>
       </div>
     </section>
