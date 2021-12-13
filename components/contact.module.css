@@ -16,7 +16,6 @@
 
 .form {
 	display: flex;
-	/* position: relative; */
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
@@ -86,6 +85,31 @@
 	box-shadow: none;
 }
 
+.button_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.error_message {
+	color: var(--accent-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	line-height: unset;
+}
+
+.success_message {
+	color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	line-height: unset;
+}
+
 /*================ Laptop ==================*/
 @media screen and (min-width: 1024px) {
 	.form input,
@@ -103,6 +127,5 @@
 	.form button:hover {
 		cursor: pointer;
 		background-color: #ff0303a6;
-		transform: scale(1.1);
 	}
 }

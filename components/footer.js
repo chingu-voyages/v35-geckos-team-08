@@ -7,11 +7,11 @@ export default function Footer() {
 		<footer>
 			<p className={`${utilsStyles.font_white} ${styles.text}`}>
 				Copyright ©2021.{' '}
-				<div className={styles.link_wrap}>
+				<span className={styles.link_wrap}>
 					<Link href="https://github.com/chingu-voyages/v35-geckos-team-08">
 						Chingu-v-35-08.group
 					</Link>
-				</div>
+				</span>
 				<br />
 				All Rights Reserved.
 			</p>
