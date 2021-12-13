@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import About from '../components/about';
+import Contact from '../components/contact';
+import Footer from '../components/footer';
 
 export default function Home() {
 	return (
@@ -11,6 +13,8 @@ export default function Home() {
 			</Head>
 			<h1>Protest Tunes</h1>
 			<About />
+			<Contact />
+			<Footer />
 		</div>
 	);
 }
