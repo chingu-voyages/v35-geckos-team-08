@@ -1,42 +1,67 @@
 .audio_player_section {
-	position: relative;
+  position: relative;
 	display: flex;
 	align-items: center;
 	padding: 0 3rem;
 }
 
-.episode_info_section {
-	position: relative;
-	align-items: center;
-	/* padding: 0 3rem; */
-  padding-top: 3rem;
+.audio_player_section_container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 35% 10% 30% 15%;
+  justify-items: center;
+  align-items: center;
 }
 
-.audio_player_section_container {
-	width: 100%;
-	height: 100%;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 10% 30% 10% 30% 10%;
-	justify-items: center;
-	align-items: center;
-  /* padding: 0 3rem; */
+.image_wrapper {
+  position: relative;
+  width: 80%;
+	height: 90%;
+  box-shadow: 0 0 3em black;
 }
+
+.episode_info_section{
+  position: relative;
+  top: 12rem;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  padding: 1em 5em;
+}
+
+.episode_title {
+  text-align: center;
+}
+
+.episode_details{
+  width: 100%;
+  overflow: scroll;
+  text-align: start;
+  margin-bottom: 5em;
+	height: 140px;
+  /* width: 80%; */
+	/* height: 100%; */
+	/* overflow: scroll; */
+}
+
 
 .audioPlayer {
     --primary: grey;
     --secondary: white;
-  
-    /* display: flex; */
-    width: 90%;
-    /* grid-area: player / player / player / player; */
-    /* padding: 0px 25px; */
-    -webkit-box-align: center;
-  align-items: center;
-  display: grid;
-  /* grid-template-columns: 60px 1fr 60px; */
-  grid-template-columns: 10% 80% 10%;
-  justify-items: center;
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .audioPlayerPlaybutton{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
   }
   
   .forwardBackward {
@@ -45,8 +70,14 @@
     display: flex;
     align-items: center;
     font-family: var(--title-font);
-    font-size: 20px;
+    font-size: 12px;
     cursor: pointer;
+    position: relative;
+  }
+
+  .forwardBackward svg {
+    position: relative;
+    top: 0.2rem;
   }
   
   .forwardBackward:hover {
@@ -54,34 +85,34 @@
   }
   
   .playPause {
-    background: var(--primary);
-    border: none;
+    border: 6px solid var(--primary);
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
-    font-size: 32px;
-    color: var(--secondary);
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
-    align-items:center;
-    margin: 30px;
+    align-items: center;
+    background-color: transparent;
   }
   
   .play {
-    position: relative;
-    left: 5px;
+    padding-left: 3px;
+    color: var(--primary);
+    text-align: center;
+  }
+
+  .audioPlayerBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
   
   .currentTime,
   .duration {
     font-family: var(--title-font);
-    font-size: 20px;
-    /* margin-left: 25px; */
-  }
-  
-  .currentTime {
-    /* margin-left: 25px; */
-    margin-right: 25px;
+    font-size: 12px;
   }
   
   .progressBar {
@@ -90,33 +121,14 @@
     --seek-before-color: grey;
     --knobby: black;
     --selectedKnobby: #ff0303;
-  
+    padding-top: 5px;
     appearance: none;
     background: var(--bar-bg);;
     border-radius: 10px;
-    position: relative;
-    width: 100%;
-    height: 11px;
+    width: 50%;
+    height: 6px;
     outline: none;
   }
-
-  .image_wrapper {
-    position: relative;
-    width: 80%;
-    height: 90%;
-  }
-
-  /* .gNktQn .audio-player {
-    grid-area: player / player / player / player;
-    padding: 0px 25px;
-}
-
-.itLYE .controls {
-  -webkit-box-align: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 60px 1fr 60px;
-} */
   
   /* progress bar - safari */
   .progressBar::-webkit-slider-runnable-track {
@@ -124,7 +136,7 @@
     border-radius: 10px;
     position: relative;
     width: 100%;
-    height: 11px;
+    height: 6px;
     outline: none;
   }
   
@@ -143,7 +155,7 @@
   }
   
   /* progress bar - chrome and safari */
-  .progressBar::before {
+  /* .progressBar::before {
     content: '';
     height: 11px;
     width: var(--seek-before-width);
@@ -155,7 +167,7 @@
     left: 0;
     z-index: 2;
     cursor: pointer;
-  }
+  } */
   
   /* progress bar - firefox */
   .progressBar::-moz-range-progress {
@@ -168,16 +180,15 @@
   /* knobby - chrome and safari */
   .progressBar::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     border-radius: 50%;
     border: none;
+    position: relative;
+    bottom: 4px;
     background-color: var(--knobby);
     cursor: pointer;
-    position: relative;
-    margin: -2px 0 0 0;
     z-index: 3;
-    box-sizing: border-box;
   }
   
   /* knobby while dragging - chrome and safari */
