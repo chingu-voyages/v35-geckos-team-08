@@ -99,6 +99,10 @@
   /* border-bottom: 1px solid black; */
 }
 
+.active{
+  color: var(--title-font);
+}
+
 .overlay {
   position: fixed;
   top: 0;

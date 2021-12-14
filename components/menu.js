@@ -26,6 +26,7 @@ export default function Menu(){
     <div className={isMenuOpen ? styles.menu : styles.menu_hidden}>
       <ul>
         <Scroll 
+        activeClass="active"
         to="home"  
         spy={true}
         smooth={true}
@@ -34,6 +35,7 @@ export default function Menu(){
         </Scroll>
 
         <Scroll 
+        activeClass="active"
         to="episodes"  
         spy={true}
         smooth={true}
@@ -42,6 +44,7 @@ export default function Menu(){
         </Scroll>
 
         <Scroll 
+        activeClass="active"
         to="about"  
         spy={true}
         smooth={true}
@@ -50,6 +53,7 @@ export default function Menu(){
         </Scroll>
 
         <Scroll 
+        activeClass="active"
         to="contact"  
         spy={true}
         smooth={true}
