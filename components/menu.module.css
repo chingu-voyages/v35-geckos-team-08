@@ -92,15 +92,13 @@
   text-decoration: none;
   border: none;
   list-style: none;
+  transition: color 0.1s ease;
+  display: inline-block;
 }
 
 .menu li:hover, .menu_hidden li:hover {
   color: white;
-  /* border-bottom: 1px solid black; */
-}
-
-.active{
-  color: var(--title-font);
+  border-bottom: 1px solid white;
 }
 
 .overlay {
@@ -154,7 +152,7 @@
 
   .menu li:hover {
     color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
 
   .overlay {

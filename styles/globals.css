@@ -67,6 +67,10 @@ footer {
 	padding: 3rem 1rem;
 }
 
+.active{
+  color: white !important;
+}
+
 * {
 	padding: 0;
 	margin: 0;
