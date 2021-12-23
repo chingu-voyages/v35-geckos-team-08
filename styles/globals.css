@@ -72,6 +72,12 @@ a:hover {
 	color: var(--accent-color);
 }
 
+.alice-carousel,
+.alice-carousel div,
+.alice-carousel__wrapper {
+	height: 100%;
+}
+
 .alice-carousel__dots {
 	display: none;
 }
@@ -79,16 +85,16 @@ a:hover {
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	width: auto !important;
 }
 
 .alice-carousel__prev-btn {
-	left: 10%;
+	left: 5%;
 }
 
 .alice-carousel__next-btn {
-	right: 10%;
+	right: 5%;
 }
 
 * {
