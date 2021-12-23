@@ -18,7 +18,6 @@ export default function About() {
 				</h2>
 				<div className={styles.image_wrapper}>
 					<Image
-						priority
 						src="/assets/sample_profile_pic.jpeg"
 						layout="fill"
 						objectFit="cover"
@@ -47,13 +46,19 @@ export default function About() {
 				</div>
 				<article className={styles.social_icons}>
 					<Link href="/" passHref>
-						<BsTwitter size="1.5rem" />
+						<>
+							<BsTwitter size="1.5rem" />
+						</>
 					</Link>
 					<Link href="/" passHref>
-						<GrFacebookOption size="1.5rem" />
+						<>
+							<GrFacebookOption size="1.5rem" />
+						</>
 					</Link>
 					<Link href="/" passHref>
-						<BsInstagram size="1.5rem" />
+						<>
+							<BsInstagram size="1.5rem" />
+						</>
 					</Link>
 				</article>
 			</div>
