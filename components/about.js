@@ -4,6 +4,7 @@ import styles from './about.module.css';
 import utilsStyles from '../styles/utils.module.css';
 import { BsTwitter, BsInstagram } from 'react-icons/bs';
 import { GrFacebookOption } from 'react-icons/gr';
+import { shimmer, toBase64 } from '../utils/shimmer';
 
 export default function About() {
 	return (
@@ -23,6 +24,8 @@ export default function About() {
 						objectFit="cover"
 						objectPosition="left top"
 						alt="profile-dummy"
+						placeholder="blur"
+						blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer())}`}
 					/>
 				</div>
 				<h3 className={`${utilsStyles.font_white} ${styles.about_section}`}>
