@@ -6,7 +6,6 @@ import { BsArrowLeftShort } from 'react-icons/bs';
 import { BsArrowRightShort } from 'react-icons/bs';
 import { FaPlay } from 'react-icons/fa';
 import { FaPause } from 'react-icons/fa';
-//
 
 const AudioPlayer = () => {
 	// state
@@ -80,6 +79,7 @@ const AudioPlayer = () => {
 				<h2 className={utilsStyles.font_black}>
 					<span className={utilsStyles.font_accent}>E</span>pisodes
 				</h2>
+
 				<div className={styles.image_wrapper}>
 					<Image
 						priority
@@ -152,4 +152,4 @@ const AudioPlayer = () => {
 	);
 };
 
-export { AudioPlayer };
+export default AudioPlayer;

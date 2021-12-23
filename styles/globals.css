@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Notable&display=swap');
+@import 'react-alice-carousel/lib/alice-carousel.css';
 
 :root {
 	--title-font: 'Notable', sans-serif;
@@ -41,8 +42,6 @@ h3 {
 	font-size: 1.8rem;
 }
 
-{/* added h4 and h5 */}
-
 h4 {
 	font-size: 1.2rem;
 }
@@ -73,6 +72,25 @@ a:hover {
 	color: var(--accent-color);
 }
 
+.alice-carousel__dots {
+	display: none;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+	position: absolute;
+	top: 20%;
+	width: auto !important;
+}
+
+.alice-carousel__prev-btn {
+	left: 10%;
+}
+
+.alice-carousel__next-btn {
+	right: 10%;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -93,12 +111,14 @@ a:hover {
 		font-size: 2.2rem;
 	}
 
-	{/* added h4 and h5 */}
+	 {
+		/* added h4 and h5 */
+	}
 
 	h4 {
 		font-size: 2rem;
 	}
-	
+
 	h5 {
 		font-size: 1.8rem;
 	}
@@ -124,12 +144,10 @@ a:hover {
 		font-size: 2.8rem;
 	}
 
-	{/* added h4 and h5 */}
-
 	h4 {
 		font-size: 2.6rem;
 	}
-	
+
 	h5 {
 		font-size: 2.2rem;
 	}
