@@ -4,9 +4,12 @@ import utilsStyles from '../styles/utils.module.css';
 import AudioPlayer from './AudioPlayer';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import episodeList from '../episodes/episodeList';
 
 // eslint-disable-next-line react/jsx-key
-const items = [<AudioPlayer />, <AudioPlayer />, <AudioPlayer />];
+const items = episodeList.map((episode) => (
+	<AudioPlayer key={episode.episodeNumber} data={episode} />
+));
 
 const Episodes = () => {
 	return (

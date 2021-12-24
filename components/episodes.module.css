@@ -5,7 +5,7 @@
 	padding: 0 3rem;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 10% 90%;
+	grid-template-rows: 15% 85%;
 	justify-content: center;
 	align-items: center;
 }

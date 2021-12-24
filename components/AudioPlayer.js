@@ -5,7 +5,10 @@ import Image from 'next/image';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { FaPlay, FaPause } from 'react-icons/fa';
 
-const AudioPlayer = () => {
+const AudioPlayer = ({ data }) => {
+	const { episodeNumber, onAirDateTime, title, description, audio, image } =
+		data;
+
 	// state
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [duration, setDuration] = useState(0);
@@ -16,10 +19,14 @@ const AudioPlayer = () => {
 	const progressBar = useRef(); // reference our progress bar
 	const animationRef = useRef(); // reference the animation
 
-	useEffect(() => {
+	const onLoadedMetadata = () => {
 		const seconds = Math.floor(audioPlayer.current.duration);
 		setDuration(seconds);
 		progressBar.current.max = seconds;
+	};
+
+	useEffect(() => {
+		onLoadedMetadata();
 	}, [audioPlayer?.current?.loadedmetadata, audioPlayer?.current?.readyState]);
 
 	const calculateTime = (secs) => {
@@ -42,6 +49,10 @@ const AudioPlayer = () => {
 		}
 	};
 
+	const changePlayerCurrentTime = () => {
+		setCurrentTime(progressBar.current.value);
+	};
+
 	const whilePlaying = () => {
 		progressBar.current.value = audioPlayer.current.currentTime;
 		changePlayerCurrentTime();
@@ -53,17 +64,13 @@ const AudioPlayer = () => {
 		changePlayerCurrentTime();
 	};
 
-	const changePlayerCurrentTime = () => {
-		setCurrentTime(progressBar.current.value);
-	};
-
 	const backThirty = () => {
-		progressBar.current.value = Number(progressBar.current.value - 30);
+		progressBar.current.value = Number(progressBar.current.value) - 30;
 		changeRange();
 	};
 
 	const forwardThirty = () => {
-		progressBar.current.value = Number(progressBar.current.value + 30);
+		progressBar.current.value = Number(progressBar.current.value) + 30;
 		changeRange();
 	};
 
@@ -71,37 +78,34 @@ const AudioPlayer = () => {
 		<div className={styles.audio_player_section_container}>
 			<div className={styles.image_wrapper}>
 				<Image
-					src="/assets/sample_profile_pic.jpeg"
+					src={image}
 					layout="fill"
 					objectFit="cover"
 					objectPosition="left top"
-					alt="profile-dummy"
+					alt={title}
 				/>
 			</div>
 			{/* episode_info_section */}
 			<div className={styles.episode_info_section}>
 				<div className={styles.episode_title}>
-					<h3>003 Occupy</h3>
-					<h4>-Raid of Zuccati Park-</h4>
-					<p>Nov.15th, 12-2am On Air</p>
+					<h3>
+						{episodeNumber} {title}
+					</h3>
+					{/* <h4>-Raid of Zuccati Park-</h4> */}
+					<p>{onAirDateTime} On Air</p>
 				</div>
 				<div className={styles.episode_details}>
-					<p>
-						Velit tincidunt ultricies dictum at. Amet, lectus gravida in enim
-						proin mauris elit eu leo. Suspendisse pharetra donec erat aliquet
-						consectetur lectus vitae, fermentum. Tempus, vulputate etiam in
-						tristique volutpat vestibulum. Odio penatibus at vitae consectetur
-						sed.
-					</p>
+					<p>{description}</p>
 				</div>
 			</div>
 
 			<div className={styles.audioPlayer}>
 				<audio
 					ref={audioPlayer}
-					src="https://cdn.simplecast.com/audio/cae8b0eb-d9a9-480d-a652-0defcbe047f4/episodes/af52a99b-88c0-4638-b120-d46e142d06d3/audio/500344fb-2e2b-48af-be86-af6ac341a6da/default_tc.mp3"
+					src={audio}
 					preload="metadata"
-				></audio>
+					onLoadedMetadata={onLoadedMetadata}
+				/>
 				<div className={styles.audioPlayerPlaybutton}>
 					<button className={styles.forwardBackward} onClick={backThirty}>
 						<BsArrowLeftShort /> 30
