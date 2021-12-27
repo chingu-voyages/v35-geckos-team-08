@@ -25,42 +25,46 @@ export default function Menu(){
     {hamburgerMenu()}
     <div className={isMenuOpen ? styles.menu : styles.menu_hidden}>
       <ul>
-      <li onClick={handleMenuClick}>
+      <li>
         <Scroll 
         to="home"  
         spy={true}
         smooth={true}
-        duration={1000}>
+        duration={1000}
+        onClick={handleMenuClick}>
         HOME
         </Scroll>
         </li>
         
-        <li onClick={handleMenuClick}>
+        <li>
         <Scroll 
         to="episodes"  
         spy={true}
         smooth={true}
-        duration={1000}>
+        duration={1000}
+        onClick={handleMenuClick}>
         EPISODES
         </Scroll>
         </li>
 
-        <li onClick={handleMenuClick}>
+        <li>
         <Scroll 
         to="about"  
         spy={true}
         smooth={true}
-        duration={1000}>
+        duration={1000}
+        onClick={handleMenuClick}>
         ABOUT
         </Scroll>
         </li>
 
-        <li onClick={handleMenuClick}>
+        <li>
         <Scroll 
         to="contact"  
         spy={true}
         smooth={true}
-        duration={1000}>
+        duration={1000}
+        onClick={handleMenuClick}>
         CONTACT
         </Scroll>
         </li>

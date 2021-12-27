@@ -151,8 +151,11 @@
   }
 
   .menu li:hover {
-    color: white;
     border-bottom: 1px solid white;
+  }
+
+  .menu li a:hover {
+    color: white;
   }
 
   .overlay {
