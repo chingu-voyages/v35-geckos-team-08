@@ -101,6 +101,10 @@
   border-bottom: 1px solid white;
 }
 
+.menu li a:hover {
+  color: white;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -152,10 +156,6 @@
 
   .menu li:hover {
     border-bottom: 1px solid white;
-  }
-
-  .menu li a:hover {
-    color: white;
   }
 
   .overlay {
