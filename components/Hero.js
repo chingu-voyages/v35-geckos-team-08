@@ -4,6 +4,7 @@ import styles from '../components/hero.module.css';
 import utilsStyles from '../styles/utils.module.css';
 import Menu from './menu';
 import { useMediaQuery } from 'react-responsive';
+import { Link as Scroll } from 'react-scroll';
 
 export default function Hero(){
 
@@ -53,9 +54,15 @@ export default function Hero(){
 					)}
 				</div>
 			</div>
-			<div className={styles.arrows}>
-				<Image width={45} height={65} src="/assets/arrows.png" alt="arrow" />
-			</div>
+			<Scroll 
+        to="episodes"  
+        spy={true}
+        smooth={true}
+        duration={1000}>
+			  <div className={styles.arrows}>
+				  <Image width={45} height={65} src="/assets/arrows.png" alt="arrow" />
+			  </div>
+			</Scroll>
     </div>
   );
 }
