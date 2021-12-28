@@ -2,10 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import styles from '../components/AudioPlayer.module.css';
 import utilsStyles from '../styles/utils.module.css';
 import Image from 'next/image';
-import { BsArrowLeftShort } from 'react-icons/bs';
-import { BsArrowRightShort } from 'react-icons/bs';
-import { FaPlay } from 'react-icons/fa';
-import { FaPause } from 'react-icons/fa';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { FaPlay, FaPause } from 'react-icons/fa';
 //
 
 const AudioPlayer = () => {
@@ -57,17 +55,17 @@ const AudioPlayer = () => {
 	};
 
 	const changePlayerCurrentTime = () => {
-		// progressBar.current.style.setProperty('--seek-before-width', `${progressBar.current.value / duration * 100}%`)
+		progressBar.current.style.setProperty('--seek-before-width', `${progressBar.current.value / duration * 100}%`)
 		setCurrentTime(progressBar.current.value);
 	};
 
 	const backThirty = () => {
-		progressBar.current.value = Number(progressBar.current.value - 30);
+		progressBar.current.value = Number(progressBar.current.value) - 30;
 		changeRange();
 	};
 
 	const forwardThirty = () => {
-		progressBar.current.value = Number(progressBar.current.value + 30);
+		progressBar.current.value = Number(progressBar.current.value) + 30;
 		changeRange();
 	};
 
@@ -152,4 +150,4 @@ const AudioPlayer = () => {
 	);
 };
 
-export { AudioPlayer };
+export default AudioPlayer;

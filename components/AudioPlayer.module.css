@@ -63,6 +63,23 @@
 	text-align: start;
 }
 
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .episode_details {
+    padding: 0 10rem;
+  }
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
 .episode_details::-webkit-scrollbar {
 	display: none;
 }
@@ -89,6 +106,13 @@
 	margin-bottom: 1rem;
 }
 
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .audioPlayerPlaybutton {
+    gap: 50px;
+  }
+}
+
 .forwardBackward {
 	background: none;
 	border: none;
@@ -97,6 +121,19 @@
 	font-family: var(--title-font);
 	font-size: 12px;
 	cursor: pointer;
+  position: relative;
+}
+
+.forwardBackward svg {
+  position: relative;
+  top: 0.2rem;
+}
+
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .forwardBackward {
+    font-size: 20px;
+  }
 }
 
 .forwardBackward:hover {
@@ -113,6 +150,14 @@
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
+}
+
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .playPause {
+    width: 45px;
+	  height: 45px;
+  }
 }
 
 .play {
@@ -134,9 +179,16 @@
 	font-size: 12px;
 }
 
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .currentTime,
+  .duration {
+    font-size: 20px;
+  }
+}
+
 .progressBar {
 	--bar-bg: darkgrey;
-	--seek-before-width: 0;
 	--seek-before-color: grey;
 	--knobby: black;
 	--selectedKnobby: #ff0303;
@@ -147,6 +199,13 @@
 	width: 50%;
 	height: 6px;
 	outline: none;
+}
+
+@media (min-width:600px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .progressBar {
+    width: 60%;
+  }
 }
 
 /* progress bar - safari */
@@ -171,21 +230,6 @@
 
 .progressBar::-moz-focus-outer {
 	border: 0;
-}
-
-/* progress bar - chrome and safari */
-.progressBar::before {
-	content: '';
-	height: 11px;
-	width: var(--seek-before-width);
-	background-color: var(--seek-before-color);
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	cursor: pointer;
 }
 
 /* progress bar - firefox */
