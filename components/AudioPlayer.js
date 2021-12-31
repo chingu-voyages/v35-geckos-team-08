@@ -55,7 +55,6 @@ const AudioPlayer = () => {
 	};
 
 	const changePlayerCurrentTime = () => {
-		progressBar.current.style.setProperty('--seek-before-width', `${progressBar.current.value / duration * 100}%`)
 		setCurrentTime(progressBar.current.value);
 	};
 
@@ -113,13 +112,13 @@ const AudioPlayer = () => {
 						preload="metadata"
 					></audio>
 					<div className={styles.audioPlayerPlaybutton}>
-						<button className={styles.forwardBackward} onClick={backThirty}>
+						<button className={styles.controlThirty} onClick={backThirty}>
 							<BsArrowLeftShort /> 30
 						</button>
 						<button onClick={togglePlayPause} className={styles.playPause}>
 							{isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
 						</button>
-						<button className={styles.forwardBackward} onClick={forwardThirty}>
+						<button className={styles.controlThirty} onClick={forwardThirty}>
 							30 <BsArrowRightShort />
 						</button>
 					</div>
