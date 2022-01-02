@@ -2,6 +2,7 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
+	padding: 0 3rem;
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 35% 40% 25%;
@@ -19,7 +20,6 @@
 
 .episode_info_section {
 	height: 100%;
-	/* align-self: flex-start; */
 	align-self: center;
 	display: grid;
 	grid-template-columns: 100%;
@@ -77,7 +77,7 @@
 	margin-bottom: 1rem;
 }
 
-.forwardBackward {
+.controlThirty {
 	background: none;
 	border: none;
 	display: flex;
@@ -87,7 +87,12 @@
 	cursor: pointer;
 }
 
-.forwardBackward:hover {
+.controlThirty svg {
+	position: relative;
+	top: 0.2rem;
+}
+
+.controlThirty:hover {
 	color: var(--primary);
 }
 
@@ -123,7 +128,6 @@
 
 .progressBar {
 	--bar-bg: darkgrey;
-	--seek-before-width: 0;
 	--seek-before-color: grey;
 	--knobby: black;
 	--selectedKnobby: #ff0303;
@@ -159,21 +163,6 @@
 
 .progressBar::-moz-focus-outer {
 	border: 0;
-}
-
-/* progress bar - chrome and safari */
-.progressBar::before {
-	content: '';
-	height: 11px;
-	width: var(--seek-before-width);
-	background-color: var(--seek-before-color);
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	cursor: pointer;
 }
 
 /* progress bar - firefox */
@@ -221,4 +210,46 @@
 .progressBar:active::-moz-range-thumb {
 	transform: scale(1.2);
 	background: var(--selectedKnobby);
+}
+
+/*================ Tablet ==================*/
+
+@media screen and (min-width: 768px) {
+	.episode_details {
+		padding: 0 10rem;
+	}
+
+	.audioPlayerPlaybutton {
+		gap: 50px;
+	}
+
+	.controlThirty {
+		font-size: 20px;
+	}
+
+	.controlThirty svg {
+		top: 0.3rem;
+	}
+
+	.playPause {
+		width: 45px;
+		height: 45px;
+	}
+
+	.currentTime,
+	.duration {
+		font-size: 20px;
+	}
+
+	.progressBar {
+		width: 60%;
+	}
+}
+
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+}
+
+/*================ Desktop and more ==================*/
+@media screen and (min-width: 1440px) {
 }

@@ -98,7 +98,6 @@ const AudioPlayer = ({ data }) => {
 					<p>{description}</p>
 				</div>
 			</div>
-
 			<div className={styles.audioPlayer}>
 				<audio
 					ref={audioPlayer}
@@ -107,13 +106,13 @@ const AudioPlayer = ({ data }) => {
 					onLoadedMetadata={onLoadedMetadata}
 				/>
 				<div className={styles.audioPlayerPlaybutton}>
-					<button className={styles.forwardBackward} onClick={backThirty}>
+					<button className={styles.controlThirty} onClick={backThirty}>
 						<BsArrowLeftShort /> 30
 					</button>
 					<button onClick={togglePlayPause} className={styles.playPause}>
 						{isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
 					</button>
-					<button className={styles.forwardBackward} onClick={forwardThirty}>
+					<button className={styles.controlThirty} onClick={forwardThirty}>
 						30 <BsArrowRightShort />
 					</button>
 				</div>
@@ -130,7 +129,6 @@ const AudioPlayer = ({ data }) => {
 						ref={progressBar}
 						onChange={changeRange}
 					/>
-
 					{/* duration */}
 					<div className={styles.duration}>
 						{duration && !isNaN(duration) && calculateTime(duration)}
