@@ -4,9 +4,11 @@ import utilsStyles from '../styles/utils.module.css';
 import Image from 'next/image';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { FaPlay, FaPause } from 'react-icons/fa';
-//
 
-const AudioPlayer = () => {
+const AudioPlayer = ({ data }) => {
+	const { episodeNumber, onAirDateTime, title, description, audio, image } =
+		data;
+
 	// state
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [duration, setDuration] = useState(0);
@@ -17,10 +19,14 @@ const AudioPlayer = () => {
 	const progressBar = useRef(); // reference our progress bar
 	const animationRef = useRef(); // reference the animation
 
-	useEffect(() => {
+	const onLoadedMetadata = () => {
 		const seconds = Math.floor(audioPlayer.current.duration);
 		setDuration(seconds);
 		progressBar.current.max = seconds;
+	};
+
+	useEffect(() => {
+		onLoadedMetadata();
 	}, [audioPlayer?.current?.loadedmetadata, audioPlayer?.current?.readyState]);
 
 	const calculateTime = (secs) => {
@@ -43,6 +49,10 @@ const AudioPlayer = () => {
 		}
 	};
 
+	const changePlayerCurrentTime = () => {
+		setCurrentTime(progressBar.current.value);
+	};
+
 	const whilePlaying = () => {
 		progressBar.current.value = audioPlayer.current.currentTime;
 		changePlayerCurrentTime();
@@ -52,10 +62,6 @@ const AudioPlayer = () => {
 	const changeRange = () => {
 		audioPlayer.current.currentTime = progressBar.current.value;
 		changePlayerCurrentTime();
-	};
-
-	const changePlayerCurrentTime = () => {
-		setCurrentTime(progressBar.current.value);
 	};
 
 	const backThirty = () => {
@@ -69,83 +75,67 @@ const AudioPlayer = () => {
 	};
 
 	return (
-		<section
-			className={`${utilsStyles.bg_white} ${styles.audio_player_section}`}
-			id="episodes"
-		>
-			<div className={styles.audio_player_section_container}>
-				<h2 className={utilsStyles.font_black}>
-					<span className={utilsStyles.font_accent}>E</span>pisodes
-				</h2>
-				<div className={styles.image_wrapper}>
-					<Image
-						priority
-						src="/assets/sample_profile_pic.jpeg"
-						layout="fill"
-						objectFit="cover"
-						objectPosition="left top"
-						alt="profile-dummy"
+		<div className={styles.audio_player_section_container}>
+			<div className={styles.image_wrapper}>
+				<Image
+					src={image}
+					layout="fill"
+					objectFit="cover"
+					objectPosition="left top"
+					alt={title}
+				/>
+			</div>
+			{/* episode_info_section */}
+			<div className={styles.episode_info_section}>
+				<div className={styles.episode_title}>
+					<h3>
+						{episodeNumber} {title}
+					</h3>
+					{/* <h4>-Raid of Zuccati Park-</h4> */}
+					<p>{onAirDateTime} On Air</p>
+				</div>
+				<div className={styles.episode_details}>
+					<p>{description}</p>
+				</div>
+			</div>
+			<div className={styles.audioPlayer}>
+				<audio
+					ref={audioPlayer}
+					src={audio}
+					preload="metadata"
+					onLoadedMetadata={onLoadedMetadata}
+				/>
+				<div className={styles.audioPlayerPlaybutton}>
+					<button className={styles.controlThirty} onClick={backThirty}>
+						<BsArrowLeftShort /> 30
+					</button>
+					<button onClick={togglePlayPause} className={styles.playPause}>
+						{isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
+					</button>
+					<button className={styles.controlThirty} onClick={forwardThirty}>
+						30 <BsArrowRightShort />
+					</button>
+				</div>
+
+				<div className={styles.audioPlayerBar}>
+					{/* current time */}
+					<div className={styles.currentTime}>{calculateTime(currentTime)}</div>
+
+					{/* progress bar */}
+					<input
+						type="range"
+						className={styles.progressBar}
+						defaultValue="0"
+						ref={progressBar}
+						onChange={changeRange}
 					/>
-				</div>
-				{/* episode_info_section */}
-				<div className={styles.episode_info_section}>
-					<div className={styles.episode_title}>
-						<h3>003 Occupy</h3>
-						<h4>-Raid of Zuccati Park-</h4>
-						<p>Nov.15th, 12-2am On Air</p>
-					</div>
-					<div className={styles.episode_details}>
-						<p>
-							Velit tincidunt ultricies dictum at. Amet, lectus gravida in enim
-							proin mauris elit eu leo. Suspendisse pharetra donec erat aliquet
-							consectetur lectus vitae, fermentum. Tempus, vulputate etiam in
-							tristique volutpat vestibulum. Odio penatibus at vitae consectetur
-							sed.
-						</p>
-					</div>
-				</div>
-
-				<div className={styles.audioPlayer}>
-					<audio
-						ref={audioPlayer}
-						src="https://cdn.simplecast.com/audio/cae8b0eb-d9a9-480d-a652-0defcbe047f4/episodes/af52a99b-88c0-4638-b120-d46e142d06d3/audio/500344fb-2e2b-48af-be86-af6ac341a6da/default_tc.mp3"
-						preload="metadata"
-					></audio>
-					<div className={styles.audioPlayerPlaybutton}>
-						<button className={styles.controlThirty} onClick={backThirty}>
-							<BsArrowLeftShort /> 30
-						</button>
-						<button onClick={togglePlayPause} className={styles.playPause}>
-							{isPlaying ? <FaPause /> : <FaPlay className={styles.play} />}
-						</button>
-						<button className={styles.controlThirty} onClick={forwardThirty}>
-							30 <BsArrowRightShort />
-						</button>
-					</div>
-
-					<div className={styles.audioPlayerBar}>
-						{/* current time */}
-						<div className={styles.currentTime}>
-							{calculateTime(currentTime)}
-						</div>
-
-						{/* progress bar */}
-						<input
-							type="range"
-							className={styles.progressBar}
-							defaultValue="0"
-							ref={progressBar}
-							onChange={changeRange}
-						/>
-
-						{/* duration */}
-						<div className={styles.duration}>
-							{duration && !isNaN(duration) && calculateTime(duration)}
-						</div>
+					{/* duration */}
+					<div className={styles.duration}>
+						{duration && !isNaN(duration) && calculateTime(duration)}
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 

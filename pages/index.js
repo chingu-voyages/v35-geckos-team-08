@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import Hero from '../components/hero';
-import AudioPlayer from '../components/AudioPlayer';
+import Episodes from '../components/episodes';
 import About from '../components/about';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
 
 export default function Home() {
-
 	return (
 		<div>
 			<Head>
@@ -15,7 +14,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Hero />
-			<AudioPlayer />		
+			<Episodes />
 			<About />
 			<Contact />
 			<Footer />
