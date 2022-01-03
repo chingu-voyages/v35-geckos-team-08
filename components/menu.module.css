@@ -96,7 +96,11 @@
   display: inline-block;
 }
 
-.menu li:hover, .menu_hidden li:hover {
+.menu li a {
+  border-bottom: 0.5rem;
+}
+
+.menu li a:hover {
   color: white;
   border-bottom: 1px solid white;
 }
@@ -150,7 +154,11 @@
     list-style: none;
   }
 
-  .menu li:hover {
+  .menu li a {
+    border-bottom: 0.5rem;
+  }
+  
+  .menu li a:hover {
     color: white;
     border-bottom: 1px solid white;
   }
