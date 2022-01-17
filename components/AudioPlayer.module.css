@@ -299,6 +299,7 @@
 	}
 
 	.audioPlayerPlaybutton {
+		margin-bottom: 0;
 		gap: 5rem;
 	}
 
