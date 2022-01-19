@@ -23,9 +23,9 @@ export default function Contact() {
 	};
 
 	const handleOnBlur = () => {
-		window.scrollTo(0, contactSectionEle.current.offsetTop);
-		contactSectionEle.current.scrollIntoView(true, { behaviour: 'smooth' });
-		console.log(contactSectionEle.current.offsetTop);
+		setTimeout(() => {
+			contactSectionEle.current.scrollIntoView(true, { behaviour: 'smooth' });
+		}, 100);
 	};
 
 	const handlePostSend = (status) => {
