@@ -192,4 +192,22 @@ footer {
 	footer {
 		padding: 5rem 1rem;
 	}
+
+	.alice-carousel__prev-btn,
+	.alice-carousel__next-btn {
+		top: 30%;
+	}
+
+	.alice-carousel__prev-btn {
+		left: 3%;
+	}
+
+	.alice-carousel__prev-btn span,
+	.alice-carousel__next-btn span {
+		font-size: 3.5rem;
+	}
+
+	.alice-carousel__next-btn {
+		right: 3%;
+	}
 }

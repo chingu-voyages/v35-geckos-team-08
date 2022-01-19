@@ -219,8 +219,16 @@
 		padding: 0 10rem;
 	}
 
+	.episode_details p {
+		line-height: 3rem;
+	}
+
+	.audioPlayerBar {
+		width: 100%;
+	}
+
 	.audioPlayerPlaybutton {
-		gap: 50px;
+		gap: 8rem;
 	}
 
 	.controlThirty {
@@ -232,8 +240,8 @@
 	}
 
 	.playPause {
-		width: 45px;
-		height: 45px;
+		width: 60px;
+		height: 60px;
 	}
 
 	.currentTime,
@@ -242,12 +250,63 @@
 	}
 
 	.progressBar {
-		width: 60%;
+		margin-top: 1.1rem;
 	}
 }
 
 /*================ Laptop ==================*/
 @media screen and (min-width: 1024px) {
+	.audio_player_section_container {
+		grid-template-columns: 50% 40%;
+		grid-template-rows: 65% 35%;
+		grid-template-areas:
+			'thumbnail description'
+			'player player';
+		gap: 3rem 0;
+	}
+
+	.image_wrapper {
+		grid-area: thumbnail;
+		width: 70%;
+		height: 80%;
+	}
+
+	.episode_info_section {
+		grid-area: description;
+		margin-right: 10rem;
+	}
+
+	.episode_details {
+		padding: 3.5rem 0;
+	}
+
+	.episode_details p {
+		line-height: 4rem;
+	}
+
+	.audioPlayer {
+		grid-area: player;
+		width: 70%;
+		margin: auto;
+		flex-direction: row;
+		align-items: center;
+		align-self: center;
+	}
+
+	.audioPlayerBar {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.audioPlayerPlaybutton {
+		margin-bottom: 0;
+		gap: 5rem;
+	}
+
+	.currentTime,
+	.duration {
+		height: auto !important;
+	}
 }
 
 /*================ Desktop and more ==================*/
