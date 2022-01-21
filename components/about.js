@@ -18,10 +18,10 @@ export default function About() {
 				</h2>
 				<div className={styles.image_wrapper}>
 					<Image
-						src="/assets/sample_profile_pic.jpeg"
+						src="/assets/background-about-profile.jpg"
 						layout="fill"
 						objectFit="cover"
-						objectPosition="left top"
+						objectPosition="center top"
 						alt="profile-dummy"
 						placeholder="blur"
 						blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer())}`}
