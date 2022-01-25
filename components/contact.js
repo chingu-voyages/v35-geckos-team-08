@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styles from './contact.module.css';
 import utilsStyles from '../styles/utils.module.css';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import randomId from 'random-id';
 import validator from 'validator';
 import { BiInfoCircle, BiCheckCircle } from 'react-icons/bi';
