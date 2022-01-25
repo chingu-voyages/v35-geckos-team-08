@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from './contact.module.css';
 import utilsStyles from '../styles/utils.module.css';
 import emailjs from 'emailjs-com';
@@ -7,6 +7,7 @@ import validator from 'validator';
 import { BiInfoCircle, BiCheckCircle } from 'react-icons/bi';
 
 export default function Contact() {
+	const contactSectionEle = useRef(null);
 	const initialValues = {
 		contactNumber: randomId(4, 'aA0'),
 		name: '',
@@ -19,6 +20,12 @@ export default function Contact() {
 	const handleOnChange = (e) => {
 		const { name, value } = e.target;
 		setValues({ ...values, [name]: value });
+	};
+
+	const handleOnBlur = () => {
+		setTimeout(() => {
+			contactSectionEle.current.scrollIntoView(true, { behaviour: 'smooth' });
+		}, 100);
 	};
 
 	const handlePostSend = (status) => {
@@ -94,7 +101,11 @@ export default function Contact() {
 	};
 
 	return (
-		<section className={utilsStyles.bg_white} id="contact">
+		<section
+			className={utilsStyles.bg_white}
+			id="contact"
+			ref={contactSectionEle}
+		>
 			<div className={styles.contact_section_container}>
 				<h2>
 					<span className={utilsStyles.font_accent}>C</span>ONTACT
@@ -109,6 +120,7 @@ export default function Contact() {
 						placeholder="Your Name"
 						value={values.name}
 						onChange={handleOnChange}
+						onBlur={handleOnBlur}
 						required
 					/>
 					<input
@@ -117,6 +129,7 @@ export default function Contact() {
 						placeholder="Email Address"
 						value={values.email}
 						onChange={handleOnChange}
+						onBlur={handleOnBlur}
 						required
 					/>
 					<textarea
@@ -124,6 +137,7 @@ export default function Contact() {
 						placeholder="Your Message"
 						value={values.message}
 						onChange={handleOnChange}
+						onBlur={handleOnBlur}
 						required
 					/>
 					<div className={styles.button_wrapper}>
