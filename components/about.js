@@ -28,7 +28,7 @@ export default function About() {
 					/>
 				</div>
 				<h3 className={`${utilsStyles.font_white} ${styles.about_section}`}>
-				&nbsp;General&nbsp;<span className={utilsStyles.font_accent}>S</span>trike
+				General&nbsp;<span className={utilsStyles.font_accent}>S</span>trike
 				</h3>
 				<div className={`${utilsStyles.font_white} ${styles.description}`}>
 					<p>
