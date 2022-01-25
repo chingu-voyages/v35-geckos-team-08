@@ -28,14 +28,14 @@ export default function About() {
 					/>
 				</div>
 				<h3 className={`${utilsStyles.font_white} ${styles.about_section}`}>
-				General&nbsp;<span className={utilsStyles.font_accent}>S</span>trike
+				  General&nbsp;<span className={utilsStyles.font_accent}>S</span>trike
 				</h3>
 				<div className={`${utilsStyles.font_white} ${styles.description}`}>
 					<p>
-					DJ General Strike has a lifelong commitment to social justice as a community organizer, social worker, scholar, and artist. Ensuring the highest quality, DJ General Strike conducts countless hours of research, musical consumption, classification, and quality control. Each week, DJ General Strike forages the greatest weekly ensemble from eclectic sources and time periods to advance social change through protest music.
+					  DJ General Strike has a lifelong commitment to social justice as a community organizer, social worker, scholar, and artist. Ensuring the highest quality, DJ General Strike conducts countless hours of research, musical consumption, classification, and quality control. Each week, DJ General Strike forages the greatest weekly ensemble from eclectic sources and time periods to advance social change through protest music.
 					</p>
 					<p>
-					Take action by sharing this app with your friends and family and make Protest Tunes more accessible to the people. Contact DJ General Strike about radio syndication, streaming onto new platforms, live performances, and make requests for protest tracks and themes.
+					  Take action by sharing this app with your friends and family and make Protest Tunes more accessible to the people. Contact DJ General Strike about radio syndication, streaming onto new platforms, live performances, and make requests for protest tracks and themes.
 					</p>
 				</div>
 				<article className={styles.social_icons}>
