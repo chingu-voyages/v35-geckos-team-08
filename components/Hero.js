@@ -42,14 +42,12 @@ export default function Hero(){
 					)}
 					{isDesktop ? (
 						<p className={styles.intro}>
-							Musician, Singer, Rapper. He just debuted as Music Artist to
-							follow his dream. Now it’s not ‘dream’ anymore.
+						Turn off the radio, and turn on Protest Tunes! Get commercial-free musical content weekly for today’s current events
 						</p>
 					) : (
 						<p className={styles.intro}>
-							Musician, Singer, Rapper. He just debuted as Music Artist to
-							follow his dream.
-							<br /> Now it’s not ‘dream’ anymore.
+						Turn off the radio, and turn on Protest Tunes!
+							<br /> Get commercial-free musical content weekly for today’s current events
 						</p>
 					)}
 				</div>
