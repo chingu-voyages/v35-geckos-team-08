@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Notable&display=swap');
+@import 'react-alice-carousel/lib/alice-carousel.css';
+
+:root {
+	--title-font: 'Notable', sans-serif;
+	--text-font: 'Enriqueta', serif;
+	--accent-color: #ff0303;
+}
+
+/* For media query
+- min-width -
+Mobile M: 375px
+Mobile L: 425px
+Tablet: 768px
+Laptop: 1024px
+Desktop and more: 1440px
+*/
+
+html,
+body {
+	width: 100vw;
+	font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--title-font);
+	text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+h5 {
+	font-family: var(--text-font);
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	margin: 0;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+p {
+	font-family: var(--text-font);
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+}
+
+a:hover {
+	color: var(--accent-color);
+}
+
+.alice-carousel,
+.alice-carousel div,
+.alice-carousel__wrapper {
+	height: 100%;
+}
+
+.alice-carousel__dots {
+	display: none;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+	position: absolute;
+	top: 10%;
+	width: auto !important;
+}
+
+.alice-carousel__prev-btn span,
+.alice-carousel__next-btn span {
+	font-size: 2.5rem;
+}
+
+.alice-carousel__prev-btn {
+	left: 5%;
+}
+
+.alice-carousel__next-btn {
+	right: 5%;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+	color: black;
+}
+
+.alice-carousel__prev-btn-item:hover,
+.alice-carousel__next-btn-item:hover {
+	color: var(--accent-color);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 3rem 1rem;
+}
+
+.active {
+	color: white !important;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*================ Tablet ==================*/
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		font-size: 2.2rem;
+	}
+
+	h4 {
+		font-size: 2rem;
+	}
+
+	h5 {
+		font-size: 1.8rem;
+	}
+
+	p {
+		font-size: 1.8rem;
+		line-height: 3.2rem;
+		margin-bottom: 2.5rem;
+	}
+}
+
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 4rem;
+	}
+
+	h3 {
+		font-size: 2.8rem;
+	}
+
+	h4 {
+		font-size: 2.6rem;
+	}
+
+	h5 {
+		font-size: 2.2rem;
+	}
+
+	p {
+		font-size: 2rem;
+		line-height: 3.8rem;
+		margin-bottom: 4rem;
+	}
+
+	footer {
+		padding: 5rem 1rem;
+	}
+
+	.alice-carousel__prev-btn,
+	.alice-carousel__next-btn {
+		top: 30%;
+	}
+
+	.alice-carousel__prev-btn {
+		left: 3%;
+	}
+
+	.alice-carousel__prev-btn span,
+	.alice-carousel__next-btn span {
+		font-size: 3.5rem;
+	}
+
+	.alice-carousel__next-btn {
+		right: 3%;
+	}
+}

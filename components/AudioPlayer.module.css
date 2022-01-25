@@ -1,0 +1,314 @@
+.audio_player_section_container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0 3rem;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 35% 40% 25%;
+	justify-content: center;
+	align-items: center;
+}
+
+.image_wrapper {
+	position: relative;
+	width: 60%;
+	height: 90%;
+	margin: 1rem auto;
+	box-shadow: 0 10px 20px black;
+}
+
+.episode_info_section {
+	height: 100%;
+	align-self: center;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto;
+	gap: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+.episode_title {
+	text-align: center;
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.episode_title p {
+	font-weight: 600;
+	margin: 0;
+}
+
+.episode_details {
+	position: relative;
+	padding: 1rem 2rem;
+	overflow: scroll;
+	text-align: start;
+}
+
+.episode_details::-webkit-scrollbar {
+	display: none;
+}
+
+.episode_details p {
+	line-height: 2.2rem;
+	margin: 0;
+}
+
+.audioPlayer {
+	--primary: black;
+	--secondary: white;
+	text-align: center;
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.audioPlayerPlaybutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-bottom: 1rem;
+}
+
+.controlThirty {
+	background: none;
+	border: none;
+	display: flex;
+	align-items: center;
+	font-family: var(--title-font);
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.controlThirty svg {
+	position: relative;
+	top: 0.2rem;
+}
+
+.controlThirty:hover {
+	color: var(--primary);
+}
+
+.playPause {
+	border: 4px solid var(--primary);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+.play {
+	padding-left: 3px;
+	color: var(--primary);
+	text-align: center;
+}
+
+.audioPlayerBar {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.currentTime,
+.duration {
+	font-family: var(--title-font);
+	font-size: 12px;
+}
+
+.progressBar {
+	--bar-bg: darkgrey;
+	--seek-before-color: grey;
+	--knobby: black;
+	--selectedKnobby: #ff0303;
+	padding-top: 5px;
+	appearance: none;
+	background: var(--bar-bg);
+	border-radius: 10px;
+	width: 50%;
+	height: 6px;
+	outline: none;
+	margin-top: 0.5rem;
+}
+
+/* progress bar - safari */
+.progressBar::-webkit-slider-runnable-track {
+	background: var(--bar-bg);
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+	height: 6px;
+	outline: none;
+}
+
+/* progress bar - firefox */
+.progressBar::-moz-range-track {
+	background: var(--bar-bg);
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+	height: 11px;
+	outline: none;
+}
+
+.progressBar::-moz-focus-outer {
+	border: 0;
+}
+
+/* progress bar - firefox */
+.progressBar::-moz-range-progress {
+	background-color: var(--seek-before-color);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 11px;
+}
+
+/* knobby - chrome and safari */
+.progressBar::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	border: none;
+	position: relative;
+	bottom: 4px;
+	background-color: var(--knobby);
+	cursor: pointer;
+	z-index: 3;
+}
+
+/* knobby while dragging - chrome and safari */
+.progressBar:active::-webkit-slider-thumb {
+	transform: scale(1.2);
+	background: var(--selectedKnobby);
+}
+
+/* knobby - firefox */
+.progressBar::-moz-range-thumb {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: transparent;
+	background-color: var(--knobby);
+	cursor: pointer;
+	position: relative;
+	z-index: 3;
+	box-sizing: border-box;
+}
+
+/* knobby while dragging - firefox */
+.progressBar:active::-moz-range-thumb {
+	transform: scale(1.2);
+	background: var(--selectedKnobby);
+}
+
+/*================ Tablet ==================*/
+
+@media screen and (min-width: 768px) {
+	.episode_details {
+		padding: 0 10rem;
+	}
+
+	.episode_details p {
+		line-height: 3rem;
+	}
+
+	.audioPlayerBar {
+		width: 100%;
+	}
+
+	.audioPlayerPlaybutton {
+		gap: 8rem;
+	}
+
+	.controlThirty {
+		font-size: 20px;
+	}
+
+	.controlThirty svg {
+		top: 0.3rem;
+	}
+
+	.playPause {
+		width: 60px;
+		height: 60px;
+	}
+
+	.currentTime,
+	.duration {
+		font-size: 20px;
+	}
+
+	.progressBar {
+		margin-top: 1.1rem;
+	}
+}
+
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+	.audio_player_section_container {
+		grid-template-columns: 50% 40%;
+		grid-template-rows: 65% 35%;
+		grid-template-areas:
+			'thumbnail description'
+			'player player';
+		gap: 3rem 0;
+	}
+
+	.image_wrapper {
+		grid-area: thumbnail;
+		width: 70%;
+		height: 80%;
+	}
+
+	.episode_info_section {
+		grid-area: description;
+		margin-right: 10rem;
+	}
+
+	.episode_details {
+		padding: 3.5rem 0;
+	}
+
+	.episode_details p {
+		line-height: 4rem;
+	}
+
+	.audioPlayer {
+		grid-area: player;
+		width: 70%;
+		margin: auto;
+		flex-direction: row;
+		align-items: center;
+		align-self: center;
+	}
+
+	.audioPlayerBar {
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.audioPlayerPlaybutton {
+		margin-bottom: 0;
+		gap: 5rem;
+	}
+
+	.currentTime,
+	.duration {
+		height: auto !important;
+	}
+}
+
+/*================ Desktop and more ==================*/
+@media screen and (min-width: 1440px) {
+}

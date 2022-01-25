@@ -1,0 +1,131 @@
+.contact_section_container {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 15% 10% 75%;
+	justify-content: center;
+	align-items: center;
+	padding: 0 3rem;
+}
+
+.thank_you {
+	text-align: center;
+	margin: 0;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 60%;
+	max-width: 400px;
+	height: 100%;
+	margin: 3rem auto;
+	font-family: var(--text-font);
+}
+
+.form input,
+.form textarea,
+.form button {
+	appearance: none;
+	outline: none;
+}
+
+.form input,
+.form textarea {
+	font-size: 1.5rem;
+	font-family: var(--text-font);
+	border: none;
+	border-bottom: 1px solid gray;
+	width: 100%;
+	height: 5rem;
+	position: relative;
+	transition: all 0.5s ease-out;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+	font-weight: 600;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.form textarea {
+	resize: vertical;
+	max-height: 20rem;
+	padding: 1.5rem 0;
+}
+
+.form input:focus,
+.form textarea:focus {
+	border-bottom: 1px solid var(--accent-color);
+	box-shadow: 0 0.5rem 0.5rem -0.5rem var(--accent-color);
+}
+
+.form textarea:focus {
+	height: 20rem;
+}
+
+.form button {
+	font-family: var(--text-font);
+	font-weight: 600;
+	letter-spacing: 1px;
+	border: none;
+	background-color: var(--accent-color);
+	display: inline-block;
+	padding: 1rem 3rem;
+	box-shadow: 0.5rem 0.75rem 1rem 0 gray;
+	transition: all 0.5s ease;
+}
+
+.form button:active {
+	box-shadow: none;
+}
+
+.button_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.error_message {
+	color: var(--accent-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	line-height: unset;
+}
+
+.success_message {
+	color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	line-height: unset;
+}
+
+/*================ Laptop ==================*/
+@media screen and (min-width: 1024px) {
+	.form input,
+	.form textarea {
+		font-size: 2rem;
+		height: 6rem;
+	}
+
+	.form button {
+		font-size: 1.8rem;
+		letter-spacing: 2px;
+		padding: 1.5rem 3rem;
+	}
+
+	.form button:hover {
+		cursor: pointer;
+		background-color: #ff0303a6;
+	}
+}
