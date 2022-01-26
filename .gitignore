@@ -35,6 +35,5 @@ yarn-error.log*
 
 package-lock.json
 .eslintrc.json
-next.config.js
 
 yarn.lock

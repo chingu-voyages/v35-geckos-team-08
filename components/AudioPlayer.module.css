@@ -106,12 +106,14 @@
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 .play {
 	padding-left: 3px;
 	color: var(--primary);
 	text-align: center;
+	cursor: pointer;
 }
 
 .audioPlayerBar {
