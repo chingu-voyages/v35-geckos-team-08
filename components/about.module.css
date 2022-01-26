@@ -36,7 +36,7 @@
 }
 
 .description p {
-	word-break: break-all;
+	word-break: unset;
 }
 
 .social_icons {
