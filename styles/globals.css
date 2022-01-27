@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Notable&display=swap');
+@import url("https://use.typekit.net/tsp6enq.css");
 @import 'react-alice-carousel/lib/alice-carousel.css';
 
 :root {
 	--title-font: 'Notable', sans-serif;
-	--text-font: 'Enriqueta', serif;
+	--text-font: merriweather, serif;
 	--accent-color: #ff0303;
 }
 

@@ -36,7 +36,8 @@
 }
 
 .description p {
-	word-break: unset;
+	text-align: justify;
+  text-justify: inter-character;
 }
 
 .social_icons {
