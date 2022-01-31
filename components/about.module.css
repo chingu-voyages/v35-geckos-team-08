@@ -36,7 +36,7 @@
 }
 
 .description p {
-	word-break: break-word;
+	word-break: normal;
 }
 
 .social_icons {
@@ -61,11 +61,6 @@
 @media screen and (min-width: 768px) {
 	.about_section {
 		padding: 0 10rem;
-	}
-
-	.description p{
-		text-align: justify;
-  text-justify: inter-character;
 	}
 
 	.social_icons {
