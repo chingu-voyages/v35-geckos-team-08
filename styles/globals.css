@@ -3,7 +3,7 @@
 
 :root {
 	--title-font: 'Notable', sans-serif;
-	--text-font: Bank Gothic;
+	--text-font: 'Helvetica', sans-serif;;
 	--accent-color: #ff0303;
 }
 
@@ -20,6 +20,7 @@ html,
 body {
 	width: 100vw;
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 h1,

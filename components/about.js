@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './about.module.css';
 import utilsStyles from '../styles/utils.module.css';
-import { BsTwitter, BsInstagram } from 'react-icons/bs';
+import { BsTwitter, BsSpotify } from 'react-icons/bs';
 import { GrFacebookOption } from 'react-icons/gr';
 import { shimmer, toBase64 } from '../utils/shimmer';
 
@@ -40,21 +40,22 @@ export default function About() {
 					</p>
 				</div>
 				<article className={styles.social_icons}>
-					<Link href="/" passHref>
+					<a href="https://twitter.com/protest_tunes" target='_blank' rel="noopener noreferrer">
 						<>
 							<BsTwitter size="1.5rem" />
 						</>
-					</Link>
-					<Link href="/" passHref>
+					</a>
+					<a href='https://www.facebook.com/protesttunes' target='_blank' rel="noopener noreferrer">
 						<>
 							<GrFacebookOption size="1.5rem" />
 						</>
-					</Link>
-					<Link href="/" passHref>
+					</a>
+					<a href='https://open.spotify.com/user/crqj0kfi732nylimuog0cv0js?si=d-vSsSt4T9Wpm9UApAOnHQ' 
+					target='_blank' rel="noopener noreferrer">
 						<>
-							<BsInstagram size="1.5rem" />
+							<BsSpotify size="1.5rem" />
 						</>
-					</Link>
+					</a>
 				</article>
 			</div>
 		</section>
