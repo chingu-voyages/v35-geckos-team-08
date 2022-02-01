@@ -15,6 +15,7 @@ https://protesttunes.com/
 ## Technologies
 
 - Next.js
+- Node.js
 - CSS
 
 ## Authors
