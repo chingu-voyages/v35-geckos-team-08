@@ -4,18 +4,22 @@ This is a web page that showcases the shows of a DJ, General Strike based in Sea
 
 ## Screenshots
 
-Screenshots and the description of each feature go here.
+![protest-tunes-demo1](https://user-images.githubusercontent.com/88401910/152023141-88bf9cd2-2080-49a1-a55e-952988716e44.jpg)
+
+![protest-tunes-demo2](https://user-images.githubusercontent.com/88401910/152023169-049cadf4-0704-494e-9d0d-69db04819d4e.jpg)
 
 ### Production Site
 
-Paste the web site link here when we deploy.
+https://protesttunes.com/
 
 ## Technologies
 
 - Next.js
-- CSS
 - Node.js
+- CSS
 
 ## Authors
 
-Contributors names and contact info
+- Kaho Shibuya (https://kahoshibuya.dev/)
+- Shiho Nagano (https://shiho-n-portofolio.vercel.app/)
+- Makha Blu Wakpa (https://about-me-bluwakpa.vercel.app/)
