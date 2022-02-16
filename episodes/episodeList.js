@@ -13,9 +13,9 @@ const episodeList = [
 	{
 		episodeNumber: '002',
 		onAirDateTime: 'Nov 22nd, 12-2am',
-		title: 'Fall of Kabul',
+		title: 'Anti-War on Terror',
 		description:
-			'The first Protest Tunes show aired on 11/1/21 and was on climate justice, in light of the UN climate summit in Glasgow that week. I started working on this show as my demo for KBCS during the northwest heatwave this June.',
+			'Protest Tunes second show was on anti-war songs from the last 20 years of the war on/of terrorism. I started working on this show during the chaotic US withdrawal from Afghanistan this August.',
 		audio:
 			'/',
 		image:
@@ -24,9 +24,9 @@ const episodeList = [
 	{
 		episodeNumber: '003',
 		onAirDateTime: 'Nov 29th, 12-2am',
-		title: 'Occupy Raid of Zuccatti Park',
+		title: 'Occupy Wall Street',
 		description:
-			'The first Protest Tunes show aired on 11/1/21 and was on climate justice, in light of the UN climate summit in Glasgow that week. I started working on this show as my demo for KBCS during the northwest heatwave this June.',
+			'Our third Protest Tunes show was on protest music of the Occupy movement for the 10 year anniversary of Occupy Wall Street this fall.',
 		audio:
 			'/',
 		image:
