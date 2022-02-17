@@ -42,12 +42,12 @@ export default function Hero(){
 					)}
 					{isDesktop ? (
 						<p className={styles.intro}>
-						Turn off the radio, and turn on Protest Tunes! Get commercial-free musical content weekly for today’s current events
+						A Weekly Protest music radio show. An eclectic mix of protest songs of all genres and eras. On KBCS 91.3 Tuesdays at 11 pm-1 am
 						</p>
 					) : (
 						<p className={styles.intro}>
-						Turn off the radio, and turn on Protest Tunes!
-							<br /> Get commercial-free musical content weekly for today’s current events
+						A Weekly Protest music radio show. An eclectic mix of protest songs of all genres and eras. On KBCS 91.3 Tuesdays at 11 pm-1 am
+							<br /> 
 						</p>
 					)}
 				</div>
