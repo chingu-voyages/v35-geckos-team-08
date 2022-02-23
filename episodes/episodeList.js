@@ -32,6 +32,7 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_3_Occupy_raid_of_Zuccatti_park_uctzhq.jpg',
 	},
+	{
 	episodeNumber: '004',
 		onAirDateTime: 'Nov 22nd, 12-2am',
 		title: 'Indigenous Resistance (Thankstaking)',
@@ -42,7 +43,7 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302144/Thumbnails/Ep_4_Indigenous_Resistance_Thxgiving_heznux.jpg',
 	},
-		},
+	}
 	episodeNumber: '005',
 		onAirDateTime: 'Nov 29th, 12-2am',
 		title: 'WTO Shutdown/Anti-Globalization',
@@ -54,6 +55,7 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302141/Thumbnails/Ep_5_WTO_Anniversary_btn7wk.jpg',
 	},
+	{
 		episodeNumber: '006',
 		onAirDateTime: 'Dec 6th, 12-2am',
 		title: 'Palestine Solidarity',
@@ -75,7 +77,8 @@ const episodeList = [
 		image:
 			'https://archive.org/download/clinicdefensetraining/clinicdefensetraining.jpg',
 				
-];
+},
+{
 
 episodeNumber: '008',
 		onAirDateTime: 'Dec 20th, 12-2am',
@@ -86,7 +89,8 @@ episodeNumber: '008',
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
 			'https://archive.org/download/flickr-ows-20111125TreeLighting02-6407002625/6407002625_9d62be482f_o.jpg',
-];
+},
+{
 
 episodeNumber: '009',
 		onAirDateTime: 'Dec 27, 12-2am',
@@ -97,7 +101,8 @@ episodeNumber: '009',
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646800/Audio/Protest_Tunes_12-27-21_Best_100_Protest_Songs_of_2021_part_1_ciig8h.mp3',
 		image:
 			'https://archive.org/download/flickr-ows-20111125TreeLighting02-6407002625/6407002625_9d62be482f_o.jpg',
-];
+},
+{
 
 episodeNumber: '010',
 		onAirDateTime: 'Jan 3, 12-2am',
@@ -109,7 +114,8 @@ episodeNumber: '010',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
 				
-];
+},
+{
 
 episodeNumber: '011',
 		onAirDateTime: 'Jan 10, 12-2am',
@@ -121,7 +127,8 @@ episodeNumber: '011',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
 				
-];
+},
+{
 
 episodeNumber: '012',
 		onAirDateTime: 'Jan 17, 12-2am',
@@ -133,7 +140,8 @@ episodeNumber: '012',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
 				
-];
+},
+{
 
 episodeNumber: '013',
 		onAirDateTime: 'Jan 24th, 12-2am',
@@ -146,7 +154,8 @@ episodeNumber: '013',
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
 
 
-
+},
+{
 
 
 export default episodeList;
