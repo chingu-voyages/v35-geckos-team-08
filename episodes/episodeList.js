@@ -34,7 +34,7 @@ const episodeList = [
 	},
 	episodeNumber: '004',
 		onAirDateTime: 'Nov 22nd, 12-2am',
-		title: Indigenous Resistance (Thankstaking),
+		title: 'Indigenous Resistance (Thankstaking)',
 		description:
 			'Protest Tunes fourth show was on decolonization, and resistance to genocide of indigenous people's of the Americas for Thanksgiving/taking and National Day of Mourning that week.',
 		audio:
