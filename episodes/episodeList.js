@@ -149,13 +149,38 @@ episodeNumber: '013',
 		description:
 			'This show celebrates the 5th anniversary of the historic 2017 Women's March, with feminist protest songs of the Trump era.',
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646800/Audio/Protest_Tunes_12-27-21_Best_100_Protest_Songs_of_2021_part_1_ciig8h.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645653866/Audio/Protest_Tunes_01-24-22_Womens_March_udi8jr.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 
 
 },
 {
+	
+episodeNumber: '014',
+		onAirDateTime: 'Jan 31st, 12-2am',
+		title: 'Pandemic Protest Songs',
+		description:
+			'Tonight we are honoring 2 years of the pandemic with protest songs from the last 2 years with covid themes.',
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645654354/Thumbnails/Protest_Tunes_01-31-22_Pandemic_Protest_Songs_wv43pm.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 
+},
+{
+	
+episodeNumber: '015',
+		onAirDateTime: 'Feb 8, 11-1am',
+		title: 'Black History Month (part 1)',
+		description:
+			'Tonight we are honoring 2 years of the pandemic with protest songs from the last 2 years with covid themes.',
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645653866/Audio/Protest_Tunes_01-24-22_Womens_March_udi8jr.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
+				
+},
+{
 
 export default episodeList;
