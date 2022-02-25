@@ -174,9 +174,9 @@ episodeNumber: '015',
 		onAirDateTime: 'Feb 8, 11-1am',
 		title: 'Black History Month (part 1)',
 		description:
-			'Tonight we are honoring 2 years of the pandemic with protest songs from the last 2 years with covid themes.',
+			'Tonight is our 1st of 2 Black History Month shows featuring protest songs by black artists from the 1920s through mid 70s.',
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645654354/Audio/Protest_Tunes_01-31-22_Pandemic_Protest_Songs_wv43pm.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645766890/Audio/Protest_Tunes_02-07-22_Black_History_Month_part_1_zey3rl.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 				
