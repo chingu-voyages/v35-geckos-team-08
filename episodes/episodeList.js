@@ -43,13 +43,12 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302144/Thumbnails/Ep_4_Indigenous_Resistance_Thxgiving_heznux.jpg',
 	},
-	}
+	{
 	episodeNumber: '005',
 		onAirDateTime: 'Nov 29th, 12-2am',
 		title: 'WTO Shutdown/Anti-Globalization',
 		description:
-			'Show five of protest Tunes was on music of the anti-globalization movement and the WTO protests for the 22nd anniversary of Seattle’s infamous shut down of the WTO November 30th.'
-',
+			'Show five of protest Tunes was on music of the anti-globalization movement and the WTO protests for the 22nd anniversary of Seattle’s infamous shut down of the WTO November 30th.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645644564/Protest_Tunes_WTO_11-29-21_uuwmtg.mp3',
 		image:
@@ -66,7 +65,7 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302141/Thumbnails/Ep_6_Palestine_Solidarity_1st_intafada_ihe3of.jpg',
 				},
-					
+	{		
 		episodeNumber: '007',
 		onAirDateTime: 'Dec 13, 12-2am',
 		title: 'Reproductive Justice',
@@ -145,7 +144,7 @@ episodeNumber: '012',
 
 episodeNumber: '013',
 		onAirDateTime: 'Jan 24th, 12-2am',
-		title: 'Women's Marches 5th Anniversary)',
+		title: "Women's Marches 5th Anniversary)",
 		description:
 			'This show celebrates the 5th anniversary of the historic 2017 Womens March, with feminist protest songs of the Trump era.',
 		audio:
