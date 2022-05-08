@@ -167,8 +167,7 @@ episodeNumber: '014',
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 
 },
-{
-	
+{	
 episodeNumber: '015',
 		onAirDateTime: 'Feb 8, 11-1am',
 		title: 'Black History Month (part 1)',
@@ -179,6 +178,7 @@ episodeNumber: '015',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 				
-},
+}
+]
 
 export default episodeList;
