@@ -180,6 +180,5 @@ episodeNumber: '015',
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
 				
 },
-{
 
 export default episodeList;
