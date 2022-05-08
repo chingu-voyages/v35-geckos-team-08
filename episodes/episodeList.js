@@ -37,7 +37,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 22nd, 12-2am',
 		title: 'Indigenous Resistance (Thankstaking)',
 		description:
-			'Protest Tunes fourth show was on decolonization, and resistance to genocide of indigenous people's of the Americas for Thanksgiving/taking and National Day of Mourning that week.',
+			'Protest Tunes fourth show was on decolonization, and resistance to genocide of indigenous peoples of the Americas for Thanksgiving/taking and National Day of Mourning that week.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645643521/Audio/Protest_Tunes_Decolonization_11-22-21_dn8c6o.mp3',
 		image:
@@ -71,7 +71,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 13, 12-2am',
 		title: 'Reproductive Justice',
 		description:
-			'This weeks' show is on reproductive justice given the current threats to Roe v. Wade in Mississippi, Texas, and the Supreme Court. Our reproductive  justice show features Alice Bag, Amanda Palmer, Ani Difranco,  Peggy Seeger, Pussy Riot, Screaming  Females, War on Women and more.',
+			'This weeks show is on reproductive justice given the current threats to Roe v. Wade in Mississippi, Texas, and the Supreme Court. Our reproductive  justice show features Alice Bag, Amanda Palmer, Ani Difranco,  Peggy Seeger, Pussy Riot, Screaming  Females, War on Women and more.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645645421/Audio/Protest_Tunes_12-13-21_Reproductive_Rights_zx8vgd.mp3',
 		image:
@@ -84,7 +84,7 @@ episodeNumber: '008',
 		onAirDateTime: 'Dec 20th, 12-2am',
 		title: 'Xmas Protest Songs',
 		description:
-			'This week's show is on Christmas Protest Songs:  Christmas  themed songs that are also protest songs against war, poverty, consumerism and more. Featuring David Rovics, Steve Earle, Leeroy Stagger, U.S. Girls, Elton John, Macy Gray, Alice Bag, Anti Flag and more. ',
+			'This weeks show is on Christmas Protest Songs:  Christmas  themed songs that are also protest songs against war, poverty, consumerism and more. Featuring David Rovics, Steve Earle, Leeroy Stagger, U.S. Girls, Elton John, Macy Gray, Alice Bag, Anti Flag and more. ',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
@@ -96,7 +96,7 @@ episodeNumber: '009',
 		onAirDateTime: 'Dec 27, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 1)',
 		description:
-			'This week's show is part 1 of 3 of our top 100 Protest Songs of 2021, AKA Molotov Hot Tracks. I’ve compiled over 1,000 protest songs released this year, these are my favorites. Featuring Ani Difranco, Ash Bricky, The Linda Lindas, Hacktivist, Marina, Pussy Riot, Prince, Soundz of the South, Jesse Jett, Ziggy Marley, Evan Greer, Solidarity Not Silence, and more.',
+			'This weeks show is part 1 of 3 of our top 100 Protest Songs of 2021, AKA Molotov Hot Tracks. I’ve compiled over 1,000 protest songs released this year, these are my favorites. Featuring Ani Difranco, Ash Bricky, The Linda Lindas, Hacktivist, Marina, Pussy Riot, Prince, Soundz of the South, Jesse Jett, Ziggy Marley, Evan Greer, Solidarity Not Silence, and more.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646800/Audio/Protest_Tunes_12-27-21_Best_100_Protest_Songs_of_2021_part_1_ciig8h.mp3',
 		image:
@@ -108,7 +108,7 @@ episodeNumber: '010',
 		onAirDateTime: 'Jan 3, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 2)',
 		description:
-			'This week's show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  Featuring Grace Petrie, Billy Bragg, Moon Bandits, Georgia English, Debt Neglector, Midnight Oil, Hyro The Hero, Intellectual Dark Wave, Curse Ov Dialect, Ministry and more.',
+			'This weeks show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  Featuring Grace Petrie, Billy Bragg, Moon Bandits, Georgia English, Debt Neglector, Midnight Oil, Hyro The Hero, Intellectual Dark Wave, Curse Ov Dialect, Ministry and more.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645647225/Thumbnails/Protest_Tunes_1-3-22_Best_100_Protest_Songs_of_2021_part_2_ggffnf.mp3',
 		image:
@@ -121,7 +121,7 @@ episodeNumber: '011',
 		onAirDateTime: 'Jan 10, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 3)',
 		description:
-			'This week's show is part 3 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  Featuring Grace Petrie, Billy Bragg, Moon Bandits, Georgia English, Debt Neglector, Midnight Oil, Hyro The Hero, Intellectual Dark Wave, Curse Ov Dialect, Ministry and more.',
+			'This weeks show is part 3 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  Featuring Grace Petrie, Billy Bragg, Moon Bandits, Georgia English, Debt Neglector, Midnight Oil, Hyro The Hero, Intellectual Dark Wave, Curse Ov Dialect, Ministry and more.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645647897/Audio/Protest_Tunes_01-10-22_Best_of_2021_part_3_d8homm.mp3',
 		image:
@@ -147,7 +147,7 @@ episodeNumber: '013',
 		onAirDateTime: 'Jan 24th, 12-2am',
 		title: 'Women's Marches 5th Anniversary)',
 		description:
-			'This show celebrates the 5th anniversary of the historic 2017 Women's March, with feminist protest songs of the Trump era.',
+			'This show celebrates the 5th anniversary of the historic 2017 Womens March, with feminist protest songs of the Trump era.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645653866/Audio/Protest_Tunes_01-24-22_Womens_March_udi8jr.mp3',
 		image:
