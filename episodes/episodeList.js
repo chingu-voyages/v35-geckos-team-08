@@ -201,7 +201,21 @@ episodeNumber: '017',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652227177/Audio/Protest_Tunes_02-22-22_LR_Black_History_part_2_mdccgv.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652299672/Audio/BlackHistoryMonth_quzrmk.png',				
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652299672/Audio/BlackHistoryMonth_quzrmk.png',	 
+	},
+{	
+episodeNumber: '018',
+		onAirDateTime: 'Mar 1, 11-1am',
+		title: 'State of the Union',
+		description:
+			"This week, in dishonor of the Biden's State of the Union address tonight, we are playing State of the Union themed protest songs.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+				
+},
+{
 }
 ]
 
