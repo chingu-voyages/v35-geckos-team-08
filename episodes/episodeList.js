@@ -216,7 +216,127 @@ episodeNumber: '018',
 				
 },
 {
+	episodeNumber: '019',
+		onAirDateTime: 'Mar 8, 11-1am',
+		title: "International Women's Day",
+		description:
+			"Tonight we are playing feminist protest songs by all women artists in honor of international womens day today",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652308877/Audio/Protest_Tunes_030822_LR_HR1_hjeezf.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+	
+	},
+{
+	episodeNumber: '020',
+		onAirDateTime: 'Mar 14, 11-1am',
+		title: "St Patricks Day",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+
+	},
+{
+	episodeNumber: '021',
+		onAirDateTime: 'Mar 22, 11-1am',
+		title: "World Water Day",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 }
+{
+	episodeNumber: '022',
+		onAirDateTime: 'Mar 29, 11-1am',
+		title: "No War on Ukraine",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+	
+	}
+{
+	episodeNumber: '023',
+		onAirDateTime: 'Apr 5, 11-1am',
+		title: "Best of Winter 22",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+}
+{
+	episodeNumber: '024',
+		onAirDateTime: 'Mar 29, 11-1am',
+		title: "Earth day",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+				
+				}
+{
+	episodeNumber: '025',
+		onAirDateTime: 'Apr 19, 11-1am',
+		title: "War on Drugs",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+				
+}
+{
+	episodeNumber: '026',
+		onAirDateTime: 'Apr 26, 11-1am',
+		title: "Rodney King Uprising 30th Anniversary",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+
+}
+{
+	episodeNumber: '027',
+		onAirDateTime: 'May 3, 11-1am',
+		title: "Latinx Immigrant Rights",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+				
+}
+{
+	episodeNumber: '028',
+		onAirDateTime: 'May 10, 11-1am',
+		title: "AAPI Heritage Month",
+		description:
+			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+				}
+{
+
+
+
+
 ]
 
-export default episodeList;
+
