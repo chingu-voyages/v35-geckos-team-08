@@ -31,6 +31,7 @@ const episodeList = [
 			'/',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_3_Occupy_raid_of_Zuccatti_park_uctzhq.jpg',
+		
 	},
 	{
 	episodeNumber: '004',
@@ -176,7 +177,7 @@ episodeNumber: '015',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645766890/Audio/Protest_Tunes_02-07-22_Black_History_Month_part_1_zey3rl.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652299672/Audio/BlackHistoryMonth_quzrmk.png',
 	
 },
 {	
@@ -192,7 +193,15 @@ episodeNumber: '016',
 				
 },
 {
-				
+episodeNumber: '017',
+		onAirDateTime: 'Feb 22, 11-1am',
+		title: 'Black History Month (part 2)',
+		description:
+			"Tonight is our 2nd of 2 Black History Month shows featuring protest songs by black artists from the late 1970s through today.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652227177/Audio/Protest_Tunes_02-22-22_LR_Black_History_part_2_mdccgv.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652299672/Audio/BlackHistoryMonth_quzrmk.png',				
 }
 ]
 
