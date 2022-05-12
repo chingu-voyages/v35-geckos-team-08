@@ -320,17 +320,7 @@ episodeNumber: '018',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
-},
-{
-	episodeNumber: '028',
-		onAirDateTime: 'May 10, 11-1am',
-		title: "AAPI Heritage Month",
-		description:
-			"In honor of Asian American and Pacific Islander Heritage Month, we play protest songs by AAPI artists protesting the oppression of Asians and Pacific Islanders",
-		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
-		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+
 	
 },
 {
