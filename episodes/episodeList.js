@@ -65,8 +65,8 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645645088/Audio/Protest_Tunes_12-06-21_Palestine_negi62.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302141/Thumbnails/Ep_6_Palestine_Solidarity_1st_intafada_ihe3of.jpg',
-				},
-	{		
+},
+{		
 		episodeNumber: '007',
 		onAirDateTime: 'Dec 13, 12-2am',
 		title: 'Reproductive Justice',
@@ -161,7 +161,7 @@ episodeNumber: '014',
 		onAirDateTime: 'Jan 31st, 12-2am',
 		title: 'Pandemic Protest Songs',
 		description:
-			'Tonight we are honoring 2 years of the pandemic with protest songs from the last 2 years with covid themes.',
+			'Honoring 2 years of the covid-19 pandemic with protest songs from the last 2 years with covid themes.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645654354/Thumbnails/Protest_Tunes_01-31-22_Pandemic_Protest_Songs_wv43pm.mp3',
 		image:
@@ -173,7 +173,7 @@ episodeNumber: '015',
 		onAirDateTime: 'Feb 8, 11-1am',
 		title: 'Black History Month (part 1)',
 		description:
-			'Tonight is our 1st of 2 Black History Month shows featuring protest songs by black artists from the 1920s through mid 70s.',
+			'Our 1st of 2 Black History Month shows featuring protest songs by black artists from the 1920s through mid 70s.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645766890/Audio/Protest_Tunes_02-07-22_Black_History_Month_part_1_zey3rl.mp3',
 		image:
@@ -185,7 +185,7 @@ episodeNumber: '016',
 		onAirDateTime: 'Feb 15, 11-1am',
 		title: '2-15-03 Anti-War Protests Anniversary',
 		description:
-			"We're honoring 19 years since the biggest anti-war protest in history, 2/15/03 when 10 million+ people protested in 600+ cities across the world against the impending Iraq War, with protests songs against the Iraq War.",
+			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03 when 10 million+ people protested in 600+ cities across the world against the impending Iraq War, with protests songs against the Iraq War.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1651990566/Audio/Protest_Tunes_2-15-22_Anti-War_in_Iraq_xnv3xi.mp3',
 		image:
@@ -197,18 +197,18 @@ episodeNumber: '017',
 		onAirDateTime: 'Feb 22, 11-1am',
 		title: 'Black History Month (part 2)',
 		description:
-			"Tonight is our 2nd of 2 Black History Month shows featuring protest songs by black artists from the late 1970s through today.",
+			"Our 2nd of 2 Black History Month shows featuring protest songs by black artists from the late 1970s through today.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652227177/Audio/Protest_Tunes_02-22-22_LR_Black_History_part_2_mdccgv.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652299672/Audio/BlackHistoryMonth_quzrmk.png',	 
-	},
+},
 {	
 episodeNumber: '018',
 		onAirDateTime: 'Mar 1, 11-1am',
 		title: 'State of the Union',
 		description:
-			"This week, in dishonor of the Biden's State of the Union address tonight, we are playing State of the Union themed protest songs.",
+			"In dishonor of the Biden's first State of the Union address, we play State of the Union themed protest songs.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
@@ -220,122 +220,120 @@ episodeNumber: '018',
 		onAirDateTime: 'Mar 8, 11-1am',
 		title: "International Women's Day",
 		description:
-			"Tonight we are playing feminist protest songs by all women artists in honor of international womens day today",
+			"Feminist protest songs by women artists around the globe in honor of international womens day today",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652308877/Audio/Protest_Tunes_030822_LR_HR1_hjeezf.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 	
-	},
+},
 {
 	episodeNumber: '020',
 		onAirDateTime: 'Mar 14, 11-1am',
 		title: "St Patricks Day",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 
-	},
+},
 {
 	episodeNumber: '021',
 		onAirDateTime: 'Mar 22, 11-1am',
 		title: "World Water Day",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Honoring World Water Day today, with songs about keeping the earth's waters clean and safe for all.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
-}
+},
 {
 	episodeNumber: '022',
 		onAirDateTime: 'Mar 29, 11-1am',
 		title: "No War on Ukraine",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"All new protest songs opposing the Russian invasion of Ukraine.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 	
-	}
+},
 {
 	episodeNumber: '023',
 		onAirDateTime: 'Apr 5, 11-1am',
 		title: "Best of Winter 22",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Our top new protest songs of the last 3 months, Winter 2022, or what we call Molotov hot tracks.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
-}
+},
 {
 	episodeNumber: '024',
 		onAirDateTime: 'Mar 29, 11-1am',
-		title: "Earth day",
+		title: "Earth day/month",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Honoring Earth Month with protest songs about protecting the planet. ",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
-				}
+},
 {
 	episodeNumber: '025',
 		onAirDateTime: 'Apr 19, 11-1am',
 		title: "War on Drugs",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Celebrating 4/20 with protest songs against the war on drugs and for drug legalization. ",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
-}
+},
 {
 	episodeNumber: '026',
 		onAirDateTime: 'Apr 26, 11-1am',
 		title: "Rodney King Uprising 30th Anniversary",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"Protest songs about or inspired by the 1992 LA uprising or riots against police brutality which was 30 years ago this week",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 
-}
+},
 {
 	episodeNumber: '027',
 		onAirDateTime: 'May 3, 11-1am',
 		title: "Latinx Immigrant Rights",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"In honor of the May Day immigrant rights march and Cinco de Mayo we play protest songs by Latinx artists for immigrant rights",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
-}
+},
 {
 	episodeNumber: '028',
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
 		description:
-			"Tonight we are celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
+			"In honor of Asian American and Pacific Islander Heritage Month, we play protest songs by AAPI artists protesting the oppression of Asians and Pacific Islanders",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
-				}
+	
+},
 {
-
-
-
 
 ]
 
