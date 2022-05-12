@@ -189,7 +189,7 @@ episodeNumber: '016',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1651990566/Audio/Protest_Tunes_2-15-22_Anti-War_in_Iraq_xnv3xi.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652332609/Audio/2-15-03_mme2ef.jpg',
 				
 },
 {
