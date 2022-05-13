@@ -229,12 +229,12 @@ episodeNumber: '018',
 },
 {
 	episodeNumber: '020',
-		onAirDateTime: 'Mar 14, 11-1am',
+		onAirDateTime: 'Mar 15, 11-1am',
 		title: "St Patricks Day",
 		description:
 			"Celebrating St Patrick's Day with Irish Rebel songs, protest music against British rule of Ireland.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652386582/Audio/Protest_Tunes_031522_St_Patricks_Day_tgpzjw.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 
@@ -246,7 +246,7 @@ episodeNumber: '018',
 		description:
 			"Honoring World Water Day today, with songs about keeping the earth's waters clean and safe for all.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652387091/Audio/Protest_Tunes_032222_World_Water_Day_s2b2ei.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 },
@@ -257,7 +257,7 @@ episodeNumber: '018',
 		description:
 			"All new protest songs opposing the Russian invasion of Ukraine.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652399898/Audio/Protest_Tunes_032922_LR_HR1_hl1inz.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 	
@@ -269,18 +269,18 @@ episodeNumber: '018',
 		description:
 			"Our top new protest songs of the last 3 months, Winter 2022, or what we call Molotov hot tracks.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_LR_HR1_dlc5e6.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 },
 {
 	episodeNumber: '024',
-		onAirDateTime: 'Mar 29, 11-1am',
+		onAirDateTime: 'Apr 12, 11-1am',
 		title: "Earth day/month",
 		description:
 			"Honoring Earth Month with protest songs about protecting the planet. ",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652420675/Audio/Protest_Tunes_041222_LR_Earth_mms5pd.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
@@ -292,7 +292,7 @@ episodeNumber: '018',
 		description:
 			"Celebrating 4/20 with protest songs against the war on drugs and for drug legalization. ",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652478760/Audio/Protest_Tunes_041922_Drug_War_qogzo2.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
