@@ -19,7 +19,7 @@ const episodeList = [
 		audio:
 			'/',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302148/Thumbnails/Ep_2_Fall_of_Kabul_tba9lm.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652590796/Audio/warISTerrorism_hm28va.jpg',
 	},
 	{
 		episodeNumber: '003',
@@ -88,7 +88,7 @@ episodeNumber: '008',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
-			'https://archive.org/download/flickr-ows-20111125TreeLighting02-6407002625/6407002625_9d62be482f_o.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386506/Audio/Xmas_protest_dcgknj.jpg',
 },
 {
 
@@ -138,7 +138,7 @@ episodeNumber: '012',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645648295/Audio/Protest_Tunes_01-17-22_MLK_Day_uxqenm.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386091/Audio/MLK_Day_x5yxrb.webp',
 				
 },
 {
@@ -165,7 +165,7 @@ episodeNumber: '014',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645654354/Thumbnails/Protest_Tunes_01-31-22_Pandemic_Protest_Songs_wv43pm.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_12_Feminist_women_s_march_suktff.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652385800/Audio/racism_is_the_virus_vpa9dw.jpg',
 
 },
 {	
@@ -224,7 +224,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652308877/Audio/Protest_Tunes_030822_LR_HR1_hjeezf.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652307297/Audio/IWD_bejud5.webp',
 	
 },
 {
@@ -236,7 +236,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652386582/Audio/Protest_Tunes_031522_St_Patricks_Day_tgpzjw.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652591343/Audio/Ireland_Protest_lgsg3s.avif',
 
 },
 {
@@ -248,7 +248,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652387091/Audio/Protest_Tunes_032222_World_Water_Day_s2b2ei.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652400021/Audio/WorldWaterDay_hjkivq.jpg',
 },
 {
 	episodeNumber: '022',
@@ -257,9 +257,9 @@ episodeNumber: '018',
 		description:
 			"All new protest songs opposing the Russian invasion of Ukraine.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652399898/Audio/Protest_Tunes_032922_LR_HR1_hl1inz.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652399898/Audio/Protest_Tunes_032922_Ukraine_hl1inz.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652591582/Audio/ukraine_protest_hsg3dm.jpg',
 	
 },
 {
@@ -269,7 +269,7 @@ episodeNumber: '018',
 		description:
 			"Our top new protest songs of the last 3 months, Winter 2022, or what we call Molotov hot tracks.",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_LR_HR1_dlc5e6.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_Best_Winter_22_dlc5e6.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 },
@@ -282,7 +282,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652420675/Audio/Protest_Tunes_041222_LR_Earth_mms5pd.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652591796/Audio/earthday_hz11hr.jpg',
 				
 },
 {
