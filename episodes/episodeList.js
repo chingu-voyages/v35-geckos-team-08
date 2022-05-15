@@ -30,7 +30,7 @@ const episodeList = [
 		audio:
 			'/',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_3_Occupy_raid_of_Zuccatti_park_uctzhq.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652636426/Audio/OWS_aig6n8.jpg',
 		
 	},
 	{
@@ -271,7 +271,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_Best_Winter_22_dlc5e6.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652636927/Audio/winter_wvgbp7.jpg',
 },
 {
 	episodeNumber: '024',
@@ -294,7 +294,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652478760/Audio/Protest_Tunes_041922_Drug_War_qogzo2.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652637307/Audio/drugwar_l29b1r.jpg',
 				
 },
 {
@@ -306,7 +306,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652479236/Audio/Protest_Tunes_042622_LA_Riots_jpruxn.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652637669/Audio/LAriots_o4l9nn.jpg',
 
 },
 {
@@ -318,7 +318,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652563425/Audio/Protest_Tunes_050322_Immigrant_Rights_n5lzsm.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652637887/Audio/immigrant_ejyezm.jpg',
 				
 },
 {
@@ -330,7 +330,7 @@ episodeNumber: '018',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652572857/Audio/Protest_Tunes_051022_AAPI_Month_ckqzpo.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652638077/Audio/stopasianhate_t9n8rp.jpg',
 	
 },
 {
