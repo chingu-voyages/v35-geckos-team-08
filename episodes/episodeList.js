@@ -304,7 +304,7 @@ episodeNumber: '018',
 		description:
 			"Protest songs about or inspired by the 1992 LA uprising or riots against police brutality which was 30 years ago this week",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652479236/Audio/Protest_Tunes_042622_LA_Riots_jpruxn.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 
@@ -316,11 +316,21 @@ episodeNumber: '018',
 		description:
 			"In honor of the May Day immigrant rights march and Cinco de Mayo we play protest songs by Latinx artists for immigrant rights",
 		audio:
-			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652563425/Audio/Protest_Tunes_050322_Immigrant_Rights_n5lzsm.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 				
-
+},
+{
+	episodeNumber: '028',
+		onAirDateTime: 'May 10, 11-1am',
+		title: "AAPI Heritage Month",
+		description:
+			"In honor of Asian American and Pacific Islander Heritage Month, we are playing protest songs by AAPI artists against anti-Asain racism.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652572857/Audio/Protest_Tunes_051022_AAPI_Month_ckqzpo.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652306884/Audio/the-state-of-union_m3fwhb.png',
 	
 },
 {
