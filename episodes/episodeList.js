@@ -180,7 +180,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645654354/Thumbnails/Protest_Tunes_01-31-22_Pandemic_Protest_Songs_wv43pm.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652385800/Audio/racism_is_the_virus_vpa9dw.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652828189/Audio/racism_is_the_virus_vpa9dw.jpg',
 		
 	},
 	{
@@ -219,7 +219,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645647897/Audio/Protest_Tunes_01-10-22_Best_of_2021_part_3_d8homm.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302149/Thumbnails/Ep_8_Best_of_2021_vmj5xr.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386929/Audio/2021_w2rvjm.jpg',
 		
 	},
 	{
