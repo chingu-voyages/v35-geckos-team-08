@@ -73,8 +73,7 @@ const episodeList = [
 		
 	},
 	{
-		
-	episodeNumber: '022',
+		episodeNumber: '022',
 		onAirDateTime: 'Mar 29, 11-1am',
 		title: "No War on Ukraine",
 		description:
