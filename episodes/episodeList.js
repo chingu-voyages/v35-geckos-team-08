@@ -348,8 +348,7 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_1_UN_Climate_Summit_2021_yuaxfr.jpg',
 	
-},
-{
+}
 
 ]
 
