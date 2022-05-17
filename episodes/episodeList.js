@@ -24,7 +24,7 @@ const episodeList = [
 	},
 	{
 		
-			episodeNumber: '026',
+		episodeNumber: '026',
 		onAirDateTime: 'Apr 26, 11-1am',
 		title: "Rodney King Uprising 30th Anniversary",
 		description:
@@ -345,7 +345,6 @@ const episodeList = [
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_1_UN_Climate_Summit_2021_yuaxfr.jpg',
 	}
+];
 
-]
-
-
+export default episodeList;
