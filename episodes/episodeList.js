@@ -245,7 +245,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646800/Audio/Protest_Tunes_12-27-21_Best_100_Protest_Songs_of_2021_part_1_ciig8h.mp3',
 		image:
-			'https://archive.org/download/flickr-ows-20111125TreeLighting02-6407002625/6407002625_9d62be482f_o.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386930/Audio/best2021_ota61l.jpg',
 				
 	},
 	{
