@@ -270,7 +270,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645645421/Audio/Protest_Tunes_12-13-21_Reproductive_Rights_zx8vgd.mp3',
 		image:
-			'https://archive.org/download/clinicdefensetraining/clinicdefensetraining.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386354/Audio/Reproductive_Rights_qotaxy.jpg',
 		
 	},
 	{
