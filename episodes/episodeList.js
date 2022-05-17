@@ -70,7 +70,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_Best_Winter_22_dlc5e6.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652636927/Audio/winter_wvgbp7.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652829577/Audio/winter_wvgbp7.jpg',
 		
 	},
 	{
@@ -95,7 +95,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652387091/Audio/Protest_Tunes_032222_World_Water_Day_s2b2ei.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652400021/Audio/WorldWaterDay_hjkivq.jpg',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652829394/Audio/WWD_knegbr.jpg',
 		
 	},
 	{
@@ -119,7 +119,7 @@ const episodeList = [
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652308877/Audio/Protest_Tunes_030822_LR_HR1_hjeezf.mp3',
 		image:
-			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652307297/Audio/IWD_bejud5.webp',
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652829119/Audio/IWD_bejud5.webp',
 		
 	},
 	{	
