@@ -41,20 +41,14 @@ export default function Hero() {
 					)}
 					{isDesktop ? (
 						<p className={styles.intro}>A Weekly Protest music radio show.
-						<br />
-						An eclectic mix of protest songs of all genres and eras.
-						<br /> 
+						An eclectic mix of protest songs of all genres and eras. 
 						On KBCS 91.3 Tuesdays at 11 pm-1 am
-						<br />
 						Listen to our newest two episodes at the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>						
 						</p>
 					) : (
-						<p className={styles.intro}>A Weekly Protest music radio show.
-						<br /> 
+						<p className={styles.intro}>A Weekly Protest music radio show. 
 						An eclectic mix of protest songs of all genres and eras.
-						<br />
-						On KBCS 91.3 Tuesdays at 11 pm-1 am
-						<br /> 
+						On KBCS 91.3 Tuesdays at 11 pm-1 am 
 						Listen to our newest two episodes at the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>
 						</p>
 					)}
@@ -68,7 +62,7 @@ export default function Hero() {
 				  <Image width={45} height={65} src="/assets/arrows.png" alt="arrow" />
 			  </div>
 			</Scroll>
-    </div>
+    	</div>
 	</div>
   );
 }
