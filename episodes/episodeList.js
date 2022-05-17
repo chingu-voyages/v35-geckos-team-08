@@ -1,7 +1,6 @@
 const episodeList = [
 	{
-
-	episodeNumber: '028',
+		episodeNumber: '028',
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
 		description:
@@ -12,7 +11,6 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652638077/Audio/stopasianhate_t9n8rp.jpg',	
 	},
 	{
-
 		episodeNumber: '027',
 		onAirDateTime: 'May 3, 11-1am',
 		title: "Latinx Immigrant Rights",
@@ -347,8 +345,7 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1640307206/Audio/Protest_Tunes_Climate_Justice_11-1-21_dfzca0.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1640302143/Thumbnails/Ep_1_UN_Climate_Summit_2021_yuaxfr.jpg',
-	
-}
+	}
 
 ]
 
