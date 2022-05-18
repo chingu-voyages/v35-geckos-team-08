@@ -151,7 +151,7 @@ const episodeList = [
 		onAirDateTime: 'Feb 15, 11-1am',
 		title: '2-15-03 Anti-War Protests Anniversary',
 		description:
-			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03, with protests songs against the Iraq War.",
+			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03, with protest songs against the Iraq War.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1651990566/Audio/Protest_Tunes_2-15-22_Anti-War_in_Iraq_xnv3xi.mp3',
 		image:
