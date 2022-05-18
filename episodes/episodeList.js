@@ -5,7 +5,7 @@ const episodeList = [
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
 		description:
-			"In honor of Asian American and Pacific Islander Heritage Month, we are playing protest songs by AAPI artists against anti-Asain racism.",
+			"In honor of Asian American and Pacific Islander Heritage Month, protest songs by AAPI artists against anti-Asain racism.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652572857/Audio/Protest_Tunes_051022_AAPI_Month_ckqzpo.mp3',
 		image:
@@ -16,7 +16,7 @@ const episodeList = [
 		onAirDateTime: 'May 3, 11-1am',
 		title: "Latinx Immigrant Rights",
 		description:
-			"In honor of the May Day immigrant rights march and Cinco de Mayo we play protest songs by Latinx artists for immigrant rights",
+			"In honor of the May Day immigrant rights march and Cinco de Mayo, protest songs by Latinx artists for immigrant rights",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652563425/Audio/Protest_Tunes_050322_Immigrant_Rights_n5lzsm.mp3',
 		image:
@@ -29,7 +29,7 @@ const episodeList = [
 		onAirDateTime: 'Apr 26, 11-1am',
 		title: "Rodney King Uprising 30th Anniversary",
 		description:
-			"Protest songs about or inspired by the 1992 LA uprising or riots against police brutality which was 30 years ago this week",
+			"Protest songs about or inspired by the 1992 LA uprising/riots against police brutality which was 30 years ago this week",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652479236/Audio/Protest_Tunes_042622_LA_Riots_jpruxn.mp3',
 		image:
@@ -42,7 +42,7 @@ const episodeList = [
 		onAirDateTime: 'Apr 19, 11-1am',
 		title: "War on Drugs",
 		description:
-			"Celebrating 4/20 with protest songs against the war on drugs and for drug legalization. ",
+			"Celebrating 4/20 with protest songs against the war on drugs and for drug legalization.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652478760/Audio/Protest_Tunes_041922_Drug_War_qogzo2.mp3',
 		image:
@@ -91,7 +91,7 @@ const episodeList = [
 		onAirDateTime: 'Mar 22, 11-1am',
 		title: "World Water Day",
 		description:
-			"Honoring World Water Day today, with songs about keeping the earth's waters clean and safe for all.",
+			"Honoring World Water Day, with songs about keeping the earth's waters clean and safe for all.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652387091/Audio/Protest_Tunes_032222_World_Water_Day_s2b2ei.mp3',
 		image:
@@ -127,7 +127,7 @@ const episodeList = [
 		onAirDateTime: 'Mar 1, 11-1am',
 		title: 'State of the Union',
 		description:
-			"In dishonor of the Biden's first State of the Union address, we play State of the Union themed protest songs.",
+			"In dishonor of the Biden's first State of the Union address, State of the Union themed protest songs.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652306730/Audio/Protest_Tunes_03-01-22_State_of_the_Union_k4pihc.mp3',
 		image:
@@ -151,7 +151,7 @@ const episodeList = [
 		onAirDateTime: 'Feb 15, 11-1am',
 		title: '2-15-03 Anti-War Protests Anniversary',
 		description:
-			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03 when 10 million+ people protested in 600+ cities across the world against the impending Iraq War, with protests songs against the Iraq War.",
+			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03, with protests songs against the Iraq War.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1651990566/Audio/Protest_Tunes_2-15-22_Anti-War_in_Iraq_xnv3xi.mp3',
 		image:
@@ -189,7 +189,7 @@ const episodeList = [
 		onAirDateTime: 'Jan 24th, 12-2am',
 		title: "Women's Marches 5th Anniversary)",
 		description:
-			'This show celebrates the 5th anniversary of the historic 2017 Womens March, with feminist protest songs of the Trump era.',
+			'Celebrating the 5th anniversary of the historic 2017 Womens March, with feminist protest songs of the Trump era.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645653866/Audio/Protest_Tunes_01-24-22_Womens_March_udi8jr.mp3',
 		image:
@@ -202,7 +202,7 @@ const episodeList = [
 		onAirDateTime: 'Jan 17, 12-2am',
 		title: 'MLK Day',
 		description:
-			'Our MLK Day show:  Protest songs about, inspired by, that mention, or sample Dr. Martin Luther King Jr. ',
+			'Our MLK Day show: Protest songs about, inspired by, that mention, or sample Dr. Martin Luther King Jr. ',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645648295/Audio/Protest_Tunes_01-17-22_MLK_Day_uxqenm.mp3',
 		image:
@@ -228,7 +228,7 @@ const episodeList = [
 		onAirDateTime: 'Jan 3, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 2)',
 		description:
-			'This weeks show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  
+			'This weeks show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).',  
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645647225/Thumbnails/Protest_Tunes_1-3-22_Best_100_Protest_Songs_of_2021_part_2_ggffnf.mp3',
 		image:
@@ -254,7 +254,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 20th, 12-2am',
 		title: 'Xmas Protest Songs',
 		description:
-			'This weeks show is on Christmas Protest Songs:  Christmas  themed songs that are also protest songs against war, poverty, consumerism and more.',
+			'This weeks show is on Christmas Protest Songs:  Christmas themed songs that are also protest songs against war, poverty, consumerism and more.',
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386506/Audio/Xmas_protest_dcgknj.jpg',
@@ -289,7 +289,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 29th, 12-2am',
 		title: 'WTO Shutdown/Anti-Globalization',
 		description:
-			'Show five of protest Tunes was on music of the anti-globalization movement and the WTO protests for the 22nd anniversary of Seattle’s infamous shut down of the WTO November 30th.',
+			'Music of the anti-globalization movement and the WTO protests for the 22nd anniversary of Seattle’s infamous shut down of the WTO November 30th.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645644564/Protest_Tunes_WTO_11-29-21_uuwmtg.mp3',
 		image:
@@ -302,7 +302,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 22nd, 12-2am',
 		title: 'Indigenous Resistance (Thankstaking)',
 		description:
-			'Protest Tunes fourth show was on decolonization, and resistance to genocide of indigenous peoples of the Americas for Thanksgiving/taking and National Day of Mourning that week.',
+			'Decolonization, and resistance to genocide of indigenous peoples of the Americas for Thanksgiving/taking and National Day of Mourning.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645643521/Audio/Protest_Tunes_Decolonization_11-22-21_dn8c6o.mp3',
 		image:
@@ -326,7 +326,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 8, 12-2am',
 		title: 'Anti-War on Terror',
 		description:
-			'Protest Tunes second show was on anti-war songs from the last 20 years of the war on/of terrorism. I started working on this show during the chaotic US withdrawal from Afghanistan this August.',
+			'Protest Tunes second show was on anti-war songs from the last 20 years of the war on/of terrorism.',
 		audio:
 			'/',
 		image:
@@ -339,7 +339,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 1st, 12-2am',
 		title: 'Climate',
 		description:
-			'The first Protest Tunes show aired on 11/1/21 and was on climate justice, in light of the UN climate summit in Glasgow that week. I started working on this show as my demo for KBCS during the northwest heatwave this June.',
+			'The first Protest Tunes show aired on 11/1/21 and was on climate justice, in light of the UN climate summit in Glasgow that week.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1640307206/Audio/Protest_Tunes_Climate_Justice_11-1-21_dfzca0.mp3',
 		image:
