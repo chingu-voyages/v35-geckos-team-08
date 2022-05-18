@@ -252,9 +252,9 @@ const episodeList = [
 
 		episodeNumber: '008',
 		onAirDateTime: 'Dec 20th, 12-2am',
-		title: 'Xmas Protest Songs',
+		title: 'Christmas Protest Songs',
 		description:
-			'This weeks show is on Christmas Protest Songs:  Christmas themed songs that are also protest songs against war, poverty, consumerism and more.',
+			'This weeks show is on Christmas Protest Songs: Christmas themed songs that are also protest songs against war, poverty, consumerism and more.',
 		audio:	
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
@@ -327,7 +327,7 @@ const episodeList = [
 		onAirDateTime: 'Nov 8, 12-2am',
 		title: 'Anti-War on Terror',
 		description:
-			'Protest Tunes second show was on anti-war songs from the last 20 years of the war on/of terrorism.',
+			'Protest Tunes second show was on anti-war songs from the last 20 years of the War on/of Terrorism.',
 		audio:
 			'/',
 		image:
