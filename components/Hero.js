@@ -40,16 +40,16 @@ export default function Hero() {
 						</h1>
 					)}
 					{isDesktop ? (
-						<p className={styles.intro}>A Weekly protest music radio show
-						<br />An eclectic mix of protest songs of all genres and eras 
-						<br />On KBCS 91.3 FM Tuesdays at 11 pm-1 am
-						<br />Listen to our newest episodes on the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>						
+						<p className={styles.intro}>A Weekly Protest music radio show.
+						<br />An eclectic mix of protest songs of all genres and eras. 
+						<br />On KBCS 91.3 Tuesdays at 11 pm-1 am
+						<br />Listen to our newest two episodes at the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>						
 						</p>
 					) : (
-						<p className={styles.intro}>A Weekly protest music radio show
-						An eclectic mix of protest songs of all genres and eras
-						On <a href="https://www.kbcs.fm"><u>KBCS 91.3 FM </u> Tuesdays at 11 pm-1 am 
-						Listen to our newest two episodes on the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>
+						<p className={styles.intro}>A Weekly Protest music radio show. 
+						An eclectic mix of protest songs of all genres and eras.
+						On KBCS 91.3 Tuesdays at 11 pm-1 am 
+						Listen to our newest two episodes at the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>
 						</p>
 					)}
 				</div>
