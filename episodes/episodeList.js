@@ -66,7 +66,7 @@ const episodeList = [
 		onAirDateTime: 'Apr 5, 11-1am',
 		title: "Best of Winter 22",
 		description:
-			"Our top new protest songs of the last 3 months, Winter 2022, or what we call Molotov hot tracks.",
+			"Our top new protest songs of the last 3 months, Winter 2022, or what we call Molotov Hot Tracks.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652407111/Audio/Protest_Tunes_040522_Best_Winter_22_dlc5e6.mp3',
 		image:
@@ -115,7 +115,7 @@ const episodeList = [
 		onAirDateTime: 'Mar 8, 11-1am',
 		title: "International Women's Day",
 		description:
-			"Feminist protest songs by women artists around the globe in honor of international womens day today",
+			"Feminist protest songs by women artists around the globe in honor of International Womens Day",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652308877/Audio/Protest_Tunes_030822_LR_HR1_hjeezf.mp3',
 		image:
@@ -228,7 +228,7 @@ const episodeList = [
 		onAirDateTime: 'Jan 3, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 2)',
 		description:
-			'This weeks show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  Featuring Grace Petrie, Billy Bragg, Moon Bandits, Georgia English, Debt Neglector, Midnight Oil, Hyro The Hero, Intellectual Dark Wave, Curse Ov Dialect, Ministry and more.',
+			'This weeks show is part 2 of 3 of our top 100 protest songs of 2021 (out of over 1,000 protest songs I compiled).  
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645647225/Thumbnails/Protest_Tunes_1-3-22_Best_100_Protest_Songs_of_2021_part_2_ggffnf.mp3',
 		image:
@@ -241,7 +241,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 27, 12-2am',
 		title: 'Best 100 Protest Songs of 2021 (part 1)',
 		description:
-			'This weeks show is part 1 of 3 of our top 100 Protest Songs of 2021, AKA Molotov Hot Tracks. I’ve compiled over 1,000 protest songs released this year, these are my favorites. Featuring Ani Difranco, Ash Bricky, The Linda Lindas, Hacktivist, Marina, Pussy Riot, Prince, Soundz of the South, Jesse Jett, Ziggy Marley, Evan Greer, Solidarity Not Silence, and more.',
+			'This weeks show is part 1 of 3 of our top 100 Protest Songs of 2021, AKA Molotov Hot Tracks. I’ve compiled over 1,000 protest songs released this year, these are my favorites.', 
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646800/Audio/Protest_Tunes_12-27-21_Best_100_Protest_Songs_of_2021_part_1_ciig8h.mp3',
 		image:
@@ -254,8 +254,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 20th, 12-2am',
 		title: 'Xmas Protest Songs',
 		description:
-			'This weeks show is on Christmas Protest Songs:  Christmas  themed songs that are also protest songs against war, poverty, consumerism and more. Featuring David Rovics, Steve Earle, Leeroy Stagger, U.S. Girls, Elton John, Macy Gray, Alice Bag, Anti Flag and more. ',
-		audio:
+			'This weeks show is on Christmas Protest Songs:  Christmas  themed songs that are also protest songs against war, poverty, consumerism and more.',
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386506/Audio/Xmas_protest_dcgknj.jpg',
@@ -266,7 +265,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 13, 12-2am',
 		title: 'Reproductive Justice',
 		description:
-			'This weeks show is on reproductive justice given the current threats to Roe v. Wade in Mississippi, Texas, and the Supreme Court. Our reproductive  justice show features Alice Bag, Amanda Palmer, Ani Difranco,  Peggy Seeger, Pussy Riot, Screaming  Females, War on Women and more.',
+			'This weeks show is on reproductive justice given the current threats to Roe v. Wade in Mississippi, Texas, and the Supreme Court.',
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645645421/Audio/Protest_Tunes_12-13-21_Reproductive_Rights_zx8vgd.mp3',
 		image:
@@ -278,7 +277,7 @@ const episodeList = [
 		onAirDateTime: 'Dec 6th, 12-2am',
 		title: 'Palestine Solidarity',
 		description:
-			'Protest Tunes show on Palestine Solidarity for the 24th anniversary of the 1st intifada, December 8th 1987. Featuring David Rovics, Brother Ali, Lowkey, Marcel Cartier, Shadia Mansour & more!',
+			'Protest Tunes show on Palestine Solidarity for the 24th anniversary of the 1st intifada, December 8th 1987.', 
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645645088/Audio/Protest_Tunes_12-06-21_Palestine_negi62.mp3',
 		image:
