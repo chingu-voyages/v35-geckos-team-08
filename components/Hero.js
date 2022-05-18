@@ -49,7 +49,7 @@ export default function Hero() {
 						<p className={styles.intro}>A Weekly protest music radio show
 						An eclectic mix of protest songs of all genres and eras
 						On <a href="https://www.kbcs.fm"><u>KBCS 91.3 FM </u> Tuesdays at 11 pm-1 am 
-						Listen to our newest two episodes on the <a href="https://www.kbcs.fm/programs/protest-tunes/"><u>KBCS Archive</u></a>
+						Listen to our newest two episodes on the <a href="https://www.kbcs.fm/programs/protest-tunes/">KBCS Archive</a>
 						</p>
 					)}
 				</div>
