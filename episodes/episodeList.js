@@ -255,6 +255,7 @@ const episodeList = [
 		title: 'Xmas Protest Songs',
 		description:
 			'This weeks show is on Christmas Protest Songs:  Christmas themed songs that are also protest songs against war, poverty, consumerism and more.',
+		audio:	
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1645646233/Audio/Protest_Tunes_12-20-21_Xmas_Protest_Songs_adgwki.mp3',
 		image:
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1652386506/Audio/Xmas_protest_dcgknj.jpg',
