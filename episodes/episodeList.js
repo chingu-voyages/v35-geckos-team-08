@@ -17,7 +17,7 @@ const episodeList = [
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
 		description:
-			"In honor of Asian American and Pacific Islander Heritage Month, protest songs by AAPI artists against anti-Asain racism.",
+			"For Asian American Pacific Islander Heritage Month, protest songs by AAPI artists against anti-Asain racism.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652572857/Audio/Protest_Tunes_051022_AAPI_Month_ckqzpo.mp3',
 		image:
@@ -41,7 +41,7 @@ const episodeList = [
 		onAirDateTime: 'Apr 26, 11-1am',
 		title: "Rodney King Uprising 30th Anniversary",
 		description:
-			"Protest songs about or inspired by the 1992 LA uprising/riots against police brutality which was 30 years ago this week",
+			"Protest songs inspired by the 1992 LA uprising/riots against police brutality, 30 years ago that week",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652479236/Audio/Protest_Tunes_042622_LA_Riots_jpruxn.mp3',
 		image:
@@ -163,7 +163,7 @@ const episodeList = [
 		onAirDateTime: 'Feb 15, 11-1am',
 		title: '2-15-03 Anti-War Protests Anniversary',
 		description:
-			"Honoring 19 years since the biggest anti-war protest in history, 2/15/03, with protest songs against the Iraq War.",
+			"19 years ago was the biggest anti-war protest in history, 2/15/03, with protest songs against the Iraq War.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1651990566/Audio/Protest_Tunes_2-15-22_Anti-War_in_Iraq_xnv3xi.mp3',
 		image:
