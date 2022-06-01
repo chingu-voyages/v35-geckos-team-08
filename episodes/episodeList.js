@@ -1,6 +1,18 @@
 const episodeList = [
 	
 	{
+		episodeNumber: '029',
+		onAirDateTime: 'May 17, 11-1am',
+		title: "Malcolm X Day",
+		description:
+			"For Malcolm X Day that week, we feature protest songs about, inspired by, that mention or sample Malcolm X.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1654120125/Audio/Protest_Tunes_051722_Malcolm_X_Day_m6chfm.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1654120169/Audio/Malcolm_X_kca4wi.jpg',	
+	},
+	{
+	
 		episodeNumber: '028',
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
