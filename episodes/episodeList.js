@@ -1,6 +1,18 @@
 const episodeList = [
 	
 	{
+		episodeNumber: '030',
+		onAirDateTime: 'May 31, 11-1am',
+		title: "George Floyd BLM Uprising part 1",
+		description:
+			"Honoring 2 years since the massive Black Lives Matter uprisings of 2020 sparked by the police murder of George Floyd.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1654209408/Audio/Protest_Tunes_05-31-22_George_Floyd_BLM_part_1_qmphcy.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1654209939/Audio/BLM_Seattle_tai671.jpg',	
+	},
+	{
+	{
 		episodeNumber: '029',
 		onAirDateTime: 'May 17, 11-1am',
 		title: "Malcolm X Day",
