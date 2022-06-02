@@ -3,7 +3,7 @@ const episodeList = [
 	{
 		episodeNumber: '030',
 		onAirDateTime: 'May 31, 11-1am',
-		title: "George Floyd BLM Uprising part 1",
+		title: "George Floyd BLM Uprising pt. 1",
 		description:
 			"Honoring 2 years since the massive Black Lives Matter uprisings of 2020 sparked by the police murder of George Floyd.",
 		audio:
