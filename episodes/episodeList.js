@@ -12,7 +12,6 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1654209939/Audio/BLM_Seattle_tai671.jpg',	
 	},
 	{
-	{
 		episodeNumber: '029',
 		onAirDateTime: 'May 17, 11-1am',
 		title: "Malcolm X Day",
@@ -29,7 +28,7 @@ const episodeList = [
 		onAirDateTime: 'May 10, 11-1am',
 		title: "AAPI Heritage Month",
 		description:
-			"For Asian American Pacific Islander Heritage Month, protest songs by AAPI artists against anti-Asain racism.",
+			"For Asian American Pacific Islander Heritage Month, protest songs by AAPI artists against anti-Asian racism.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1652572857/Audio/Protest_Tunes_051022_AAPI_Month_ckqzpo.mp3',
 		image:
