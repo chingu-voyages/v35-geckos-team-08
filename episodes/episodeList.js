@@ -2,7 +2,7 @@ const episodeList = [
 	{
 		episodeNumber: '035',
 		onAirDateTime: 'July 5th, 11-1am',
-		title: "Unpatriotic 4th of July",
+		title: "Best New Protest Songs This Spring",
 		description:
 			"Our top new protest songs of the previous 3 months, Spring 2022, or what I call Molotov hot tracks",
 		audio:
