@@ -1,6 +1,17 @@
 const episodeList = [
-	
 	{
+		episodeNumber: '035',
+		onAirDateTime: 'July 5th, 11-1am',
+		title: "Unpatriotic 4th of July",
+		description:
+			"Our top new protest songs of the previous 3 months, Spring 2022, or what I call Molotov hot tracks",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669074505/Audio/Protest_Tunes_7-5-22_Best_of_Spring_2022_lpb9wz.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669074459/Audio/spring_mrdw9y.webp',	
+	},
+	{
+	
 		episodeNumber: '034',
 		onAirDateTime: 'June 28th, 11-1am',
 		title: "Unpatriotic 4th of July",
