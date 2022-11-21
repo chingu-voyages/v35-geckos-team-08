@@ -1,6 +1,17 @@
 const episodeList = [
 	
 	{
+		episodeNumber: '034',
+		onAirDateTime: 'June 28th, 11-1am',
+		title: "Unpatriotic 4th of July",
+		description:
+			"This is our anti-4th of July, anti-American, unpatriotic protest songs show.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669073559/Audio/Protest_Tunes_6-28-22_Unpatriotic_4th_of_July_dpkbm4.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669073939/Audio/flag_burn_vgahzk.jpg',	
+	},
+	{
 		episodeNumber: '033',
 		onAirDateTime: 'June 21st, 11-1am',
 		title: "Gay/Lesbian/Bisexual Pride",
