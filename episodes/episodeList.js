@@ -1,5 +1,18 @@
 const episodeList = [
 	
+	
+	{
+		episodeNumber: '032',
+		onAirDateTime: 'June 14th, 11-1am',
+		title: "Trans/Nonbinary Pride",
+		description:
+			"Our 1st of 2 LGBT Pride month shows, playing protest songs by trans & nonbinary artists agianst transphobia, cisexism and the gender binary system.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669072159/Audio/Protest_Tunes_06-14-22_Trans_pride_xdqzyq.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669072111/Audio/transgender-rights-march-protest_oonre0.jpg',	
+	},
+	{
 	{
 		episodeNumber: '031',
 		onAirDateTime: 'June 7th, 11-1am',
