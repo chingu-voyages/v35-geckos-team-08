@@ -1,6 +1,39 @@
 const episodeList = [
 	
 	{
+		episodeNumber: '031',
+		onAirDateTime: 'June 7th, 11-1am',
+		title: "George Floyd BLM Uprising pt. 2",
+		description:
+			"Honoring 2 years since the massive Black Lives Matter uprisings of 2020 sparked by the police murder of George Floyd.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669071103/Audio/Protest_Tunes_6-7-22_George_Floyd_BLM_part_2_wfyhb6.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669071203/Audio/BLM_banner_pt3lnv.jpg',	
+	},
+	{
+		episodeNumber: '030',
+		onAirDateTime: 'May 31st, 11-1am',
+		title: "George Floyd BLM Uprising pt. 2",
+		description:
+			"Honoring 2 years since the massive Black Lives Matter uprisings of 2020 sparked by the police murder of George Floyd.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1654209408/Audio/Protest_Tunes_05-31-22_George_Floyd_BLM_part_1_qmphcy.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1654209939/Audio/BLM_Seattle_tai671.jpg',	
+	},
+	{
+		episodeNumber: '029',
+		onAirDateTime: 'May 17, 11-1am',
+		title: "Malcolm X Day",
+		description:
+			"For Malcolm X Day that week, we feature protest songs about, inspired by, that mention or sample Malcolm X.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1654120125/Audio/Protest_Tunes_051722_Malcolm_X_Day_m6chfm.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1654120169/Audio/Malcolm_X_kca4wi.jpg',	
+	},
+	{
 		episodeNumber: '030',
 		onAirDateTime: 'May 31, 11-1am',
 		title: "George Floyd BLM Uprising pt. 1",
