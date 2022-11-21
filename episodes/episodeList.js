@@ -13,7 +13,7 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669072111/Audio/transgender-rights-march-protest_oonre0.jpg',	
 	},
 	{
-	{
+	
 		episodeNumber: '031',
 		onAirDateTime: 'June 7th, 11-1am',
 		title: "George Floyd BLM Uprising pt. 2",
