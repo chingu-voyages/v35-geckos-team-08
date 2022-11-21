@@ -1,10 +1,21 @@
 const episodeList = [
 	
-	
 	{
+		episodeNumber: '033',
+		onAirDateTime: 'June 21st, 11-1am',
+		title: "Gay/Lesbian/Bisexual Pride",
+		description:
+			"Our 2nd of 2 LGBT Pride month shows, on sexual orientation, featuring protest songs by gay, lesbian and bisexual artists against heterosexism.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669072940/Audio/Protest_Tunes_06-21-22_Gay-Lesbian-Bi_Pride_errrmb.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669072891/Audio/Seattle_Pride_2012_zowrms.jpg',	
+	},
+	{
+	
 		episodeNumber: '032',
 		onAirDateTime: 'June 14th, 11-1am',
-		title: "Trans/Nonbinary Pride",
+		title: "Trans & Nonbinary Pride",
 		description:
 			"Our 1st of 2 LGBT Pride month shows, playing protest songs by trans & nonbinary artists agianst transphobia, cisexism and the gender binary system.",
 		audio:
