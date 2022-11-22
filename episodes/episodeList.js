@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '036',
+		onAirDateTime: 'July 12th, 11-1am',
+		title: "Mandela Day",
+		description:
+			"Celebrating Mandela Day with protest songs about Nelson Mandela and the struggle against Apartheid in South Africa.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669082706/Audio/Protest_Tunes_07-12-22_Mandela_Day_eneno7.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669082738/Audio/nelson_mandela_abua9y.jpg',	
+	},
+	{
 		episodeNumber: '035',
 		onAirDateTime: 'July 5th, 11-1am',
 		title: "Best New Protest Songs This Spring",
