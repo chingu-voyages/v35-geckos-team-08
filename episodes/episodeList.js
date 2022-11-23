@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '037',
+		onAirDateTime: 'July 19th, 11-1am',
+		title: "Trayvon Martin Protest Songs",
+		description:
+			"Songs about and inspired by the murder of black teenager Trayvon Martin, 9 years after his killer was acquitted.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669169235/Audio/Protest_Tunes_07-19-22_Trayvon_Martin_ivp03p.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669169185/Audio/Trayvon_Martin_shooting_protest_2012_vy0hw8.jpg',	
+	},
+	{
 		episodeNumber: '036',
 		onAirDateTime: 'July 12th, 11-1am',
 		title: "Mandela Day",
