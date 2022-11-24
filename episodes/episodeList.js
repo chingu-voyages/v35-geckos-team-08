@@ -4,7 +4,7 @@ const episodeList = [
 		onAirDateTime: 'July 26th, 11-1am',
 		title: "Disability Pride Month",
 		description:
-			"July is Disability Pride Month, we play protest songs by disabled artists against ableism.",
+			"July is Disability Pride Month, commemorating the passage of the ADA. Protest songs by disabled artists against ableism.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669255270/Audio/Protest_Tunes_07-26-22_Disability_Pride_Month_pypiiy.mp3',
 		image:
