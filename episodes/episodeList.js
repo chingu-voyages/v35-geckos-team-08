@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '038',
+		onAirDateTime: 'July 26th, 11-1am',
+		title: "Disability Pride Month",
+		description:
+			"July is Disability Pride Month, we play protest songs by disabled artists against ableism.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1669255270/Audio/Protest_Tunes_07-26-22_Disability_Pride_Month_pypiiy.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1669255333/Audio/42791233892_36252bb22d_b_kfgqso.jpg',	
+	},
+	{
 		episodeNumber: '037',
 		onAirDateTime: 'July 19th, 11-1am',
 		title: "Trayvon Martin Protest Songs",
