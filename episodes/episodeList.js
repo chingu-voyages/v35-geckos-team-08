@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '039',
+		onAirDateTime: 'August 2nd, 11-1am',
+		title: "Hiroshima Day",
+		description:
+			"Observing Hiroshima Day, which commemorates the nuclear bombing of Hiroshima, Japan on August 6th 1945 with songs against atomic war.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1670794287/Protest_Tunes_08-2-22_Hiroshima_Day_fixwdl.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1670794239/The-WWII-Hiroshima-atomic-bomb-cloud-Credit-line-Atomic-Heritage-Foundation-National_vxkfy5.png',
+	},
+	{
 		episodeNumber: '038',
 		onAirDateTime: 'July 26th, 11-1am',
 		title: "Disability Pride Month",
