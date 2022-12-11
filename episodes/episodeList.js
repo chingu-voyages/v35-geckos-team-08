@@ -1,10 +1,21 @@
 const episodeList = [
 	{
+		episodeNumber: '040',
+		onAirDateTime: 'August 9th, 11-1am',
+		title: "Charlottesville",
+		description:
+			"Protest songs inspired by the Charlottesville Unite the Right Rally and anti-fascist counter protests, August 11th-12th 2017.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1670795237/Protest_Tunes_08-9-22_Charlottesville_s4jjdh.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1670795244/Charlottesville__Unite_the_Right__Rally__35780265274_dttof8.jpg',
+	},
+	{
 		episodeNumber: '039',
 		onAirDateTime: 'August 2nd, 11-1am',
 		title: "Hiroshima Day",
 		description:
-			"Observing Hiroshima Day, which commemorates the nuclear bombing of Hiroshima, Japan on August 6th 1945 with songs against atomic war.",
+			"Observing Hiroshima Day, which commemorates the nuclear bombing of Hiroshima, Japan on August 6th, 1945 with songs against atomic war.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1670794287/Protest_Tunes_08-2-22_Hiroshima_Day_fixwdl.mp3',
 		image:
