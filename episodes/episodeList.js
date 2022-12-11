@@ -4,7 +4,7 @@ const episodeList = [
 		onAirDateTime: 'August 9th, 11-1am',
 		title: "Charlottesville",
 		description:
-			"Protest songs inspired by the Charlottesville Unite the Right Rally and anti-fascist counter protests, August 11th-12th 2017.",
+			"Songs about the Charlottesville Unite the Right Rally and anti-fascist counter protests, August 11th-12th 2017.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1670795237/Protest_Tunes_08-9-22_Charlottesville_s4jjdh.mp3',
 		image:
