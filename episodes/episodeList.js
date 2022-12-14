@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '041',
+		onAirDateTime: 'August 16th, 11-1am',
+		title: "Ferguson Uprising",
+		description:
+			"Songs inspired by the Ferguson uprising against the police murder of Mike Brown, and the brutal state repression of the Ferguson protests.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1670982568/Protest_Tunes_8-16-22-_Ferguson_vkod0r.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1670982399/1200px-1_Year_Commemoration_of_the_Murder_of_Michael_Brown__the_Ferguson_Rebellion____the_Black_Lives_Matter_uprising.__20426298612_j7envo.jpg',
+	},
+	{
 		episodeNumber: '040',
 		onAirDateTime: 'August 9th, 11-1am',
 		title: "Charlottesville",
