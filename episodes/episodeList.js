@@ -1,5 +1,6 @@
 const episodeList = [
-	episodeNumber: '042',
+	{
+		episodeNumber: '042',
 		onAirDateTime: 'August 23rd, 11-1am',
 		title: "Hurricane Katrina",
 		description:
