@@ -1,4 +1,14 @@
 const episodeList = [
+	episodeNumber: '042',
+		onAirDateTime: 'August 23rd, 11-1am',
+		title: "Hurricane Katrina",
+		description:
+			"Protest songs inspired by Hurricane Katrina, 17 years ago this week, with songs protesting the government's problematic response to and inadequate preparation for the disaster. ",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1678584709/Protest_Tunes_08-23-22_Hurricane_Katrina_hpxenw.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1678584722/katrina_justice10-15-2005b_ibhgxb.jpg',
+	},
 	{
 		episodeNumber: '041',
 		onAirDateTime: 'August 16th, 11-1am',
