@@ -1,5 +1,16 @@
 const episodeList = [
 	{
+		episodeNumber: '043',
+		onAirDateTime: 'August 23rd, 11-1am',
+		title: "Labor Day",
+		description:
+			"Celebrating labor day with labor, union and working class protest songs. ",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1678586263/Protest_Tunes_08-30-22_Labor_Day_n8maex.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1678586224/labor-day_dwhnhl.jpg',
+	},
+	{
 		episodeNumber: '042',
 		onAirDateTime: 'August 23rd, 11-1am',
 		title: "Hurricane Katrina",
