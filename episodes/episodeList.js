@@ -1,7 +1,30 @@
 const episodeList = [
+
+	{
+		episodeNumber: '045',
+		onAirDateTime: 'September 13th, 11-1am',
+		title: "Back to School",
+		description:
+			"playing protest songs about youth, school and education for back to school time, and the SPS teachers strike ",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1693963216/Protest_Tunes_9-13-22_Back_to_School_m3sppd.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1693963024/school-choice_y5vraf.jpg',
+	},
+	{
+		episodeNumber: '044',
+		onAirDateTime: 'September 6th, 11-1am',
+		title: "War on Terror",
+		description:
+			"ln light of the 21st anniversary of 9-1-1, AKA "Patriot Day", we play protest songs against the war on terror.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1693951590/Protest_Tunes_9-6-22_-_War_on_Terror_rgktgk.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1678586224/labor-day_dwhnhl.jpg',
+	},
 	{
 		episodeNumber: '043',
-		onAirDateTime: 'August 23rd, 11-1am',
+		onAirDateTime: 'August 30th, 11-1am',
 		title: "Labor Day",
 		description:
 			"Celebrating labor day with labor, union and working class protest songs. ",
