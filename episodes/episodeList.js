@@ -1,11 +1,23 @@
 const episodeList = [
 
 	{
+		episodeNumber: '046',
+		onAirDateTime: 'September 20th, 11-1am',
+		title: "International Day of Peace",
+		description:
+			"Celebrating international day of peace tonight, AKA World Peace Day, a UN holiday on September 21st, with anti-war and pro-peace songs.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1693973722/9-20-22_World_Peace_Day_egups8.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1693973124/World-Peace-Day_v2wypb.jpg',
+	},
+	{
+	{
 		episodeNumber: '045',
 		onAirDateTime: 'September 13th, 11-1am',
 		title: "Back to School",
 		description:
-			"playing protest songs about youth, school and education for back to school time, and the SPS teachers strike ",
+			"playing protest songs about youth, school and education for back to school time, and the SPS teachers strike",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1693963216/Protest_Tunes_9-13-22_Back_to_School_m3sppd.mp3',
 		image:
@@ -27,7 +39,7 @@ const episodeList = [
 		onAirDateTime: 'August 30th, 11-1am',
 		title: "Labor Day",
 		description:
-			"Celebrating labor day with labor, union and working class protest songs. ",
+			"Celebrating labor day with labor, union and working class protest songs.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1678586263/Protest_Tunes_08-30-22_Labor_Day_n8maex.mp3',
 		image:
@@ -38,7 +50,7 @@ const episodeList = [
 		onAirDateTime: 'August 23rd, 11-1am',
 		title: "Hurricane Katrina",
 		description:
-			"Protest songs inspired by Hurricane Katrina, 17 years ago this week, with songs protesting the government's problematic response to and inadequate preparation for the disaster. ",
+			"Protest songs inspired by Hurricane Katrina, and protesting the government's problematic response to; and inadequate preparation for the disaster. ",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1678584709/Protest_Tunes_08-23-22_Hurricane_Katrina_hpxenw.mp3',
 		image:
