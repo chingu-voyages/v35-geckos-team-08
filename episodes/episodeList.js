@@ -1,6 +1,28 @@
 const episodeList = [
 
 	{
+		episodeNumber: '048',
+		onAirDateTime: 'October 4th, 11-1am',
+		title: "indigenous Peoples Day",
+		description:
+			"My favorite new protest songs released in the previous 3 months, Summer 2022, or what I call Molotov hot tracks",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694108538/10-4-22_Indigenous_Peoples_Day_orswdx.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1694108440/Indigenous_People_s_Day_bldbtw.jpg',
+	},
+	{
+		episodeNumber: '047',
+		onAirDateTime: 'September 27th, 11-1am',
+		title: "Best New Protest Songs of Summer 2022",
+		description:
+			"My favorite new protest songs released in the previous 3 months, Summer 2022, or what I call Molotov hot tracks",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694107701/9-27-22_Best_of_Summer_22_m98huu.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1694107595/summer_songs_ppeocu.jpg',
+	},
+	{
 		episodeNumber: '046',
 		onAirDateTime: 'September 20th, 11-1am',
 		title: "International Day of Peace",
@@ -12,7 +34,7 @@ const episodeList = [
 			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1693973124/World-Peace-Day_v2wypb.jpg',
 	},
 	{
-	{
+
 		episodeNumber: '045',
 		onAirDateTime: 'September 13th, 11-1am',
 		title: "Back to School",
