@@ -1,11 +1,45 @@
 const episodeList = [
 
 	{
+		episodeNumber: '051',   
+		onAirDateTime: 'October 18th, 11-1am',
+		title: "LGBT History Month",
+		description:
+			"For LGBT History Month, we explore the history of queer protest songs of all genres from the 1920s to the early two thousands.",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694114235/10-18-22_LGBT_History_Month_xicjcl.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1694114153/LGBT_History_Month_ohnan1.png',
+	},
+	{
+	{
+		episodeNumber: '050',   
+		onAirDateTime: 'October 18th, 11-1am',
+		title: "Hispanic Heritage Month",
+		description:
+			"Celebrating Hispanic Heritage Month, 9/15-10/15, with a mix of protest songs by latinx artists. ",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694112611/10-11-22_Latinx_History_Month_pn7q3l.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1694112432/hispanic_heritage_month_bog3rp.jpg',
+	},
+	{
+		episodeNumber: '049',   
+		onAirDateTime: 'October 11th, 11-1am',
+		title: "Latinx History Month",
+		description:
+			"Celebrating Hispanic Heritage Month, 9/15-10/15, with a mix of protest songs by latinx artists. ",
+		audio:
+			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694112611/10-11-22_Latinx_History_Month_pn7q3l.mp3',
+		image:
+			'https://res.cloudinary.com/dgg86wwnn/image/upload/v1694112432/hispanic_heritage_month_bog3rp.jpg',
+	},
+	{
 		episodeNumber: '048',
 		onAirDateTime: 'October 4th, 11-1am',
 		title: "indigenous Peoples Day",
 		description:
-			"My favorite new protest songs released in the previous 3 months, Summer 2022, or what I call Molotov hot tracks",
+			"Honoring Indigenous Peoples Day with protest songs by indigenous artists about the Native struggle.",
 		audio:
 			'https://res.cloudinary.com/dgg86wwnn/video/upload/v1694108538/10-4-22_Indigenous_Peoples_Day_orswdx.mp3',
 		image:
